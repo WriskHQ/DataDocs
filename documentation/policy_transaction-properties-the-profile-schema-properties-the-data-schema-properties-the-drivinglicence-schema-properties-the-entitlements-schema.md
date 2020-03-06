@@ -4,7 +4,7 @@
 #/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements
 ```
 
-An explanation about the purpose of this instance.
+Describes Entitlements attached to a customers Driving Licnce.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

@@ -97,7 +97,7 @@ The default value is:
 
 ## entitlements
 
-An explanation about the purpose of this instance.
+Describes Entitlements attached to a customers Driving Licnce.
 
 
 `entitlements`

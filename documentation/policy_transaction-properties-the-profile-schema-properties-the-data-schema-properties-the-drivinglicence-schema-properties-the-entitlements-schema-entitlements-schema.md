@@ -63,6 +63,10 @@ An explanation about the purpose of this instance.
 "B"
 ```
 
+```json
+"B auto"
+```
+
 ## type
 
 An explanation about the purpose of this instance.
@@ -83,6 +87,10 @@ An explanation about the purpose of this instance.
 
 ```json
 "F"
+```
+
+```json
+"P"
 ```
 
 ## validFrom
