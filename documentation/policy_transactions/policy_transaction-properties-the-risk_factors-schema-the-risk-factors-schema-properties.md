@@ -1,4 +1,4 @@
-# Untitled undefined type in The Root Schema Schema
+# Untitled undefined type in Policy Transaction Schema
 
 ```txt
 #/properties/risk_factors/items#/properties/risk_factors/items/properties

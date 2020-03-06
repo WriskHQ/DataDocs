@@ -1,4 +1,4 @@
-# The Root Schema Schema
+# Policy Transaction Schema
 
 ```txt
 http://example.com/example.json
@@ -11,33 +11,33 @@ The root schema comprises the entire JSON document.
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [policy_transaction.schema.json](../../out/policy_transaction.schema.json "open original schema") |
 
-## The Root Schema Type
+## Policy Transaction Type
 
-`object` ([The Root Schema](policy_transaction.md))
+`object` ([Policy Transaction](policy_transaction.md))
 
-# The Root Schema Properties
+# Policy Transaction Properties
 
-| Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                      |
-| :------------------------------------------------ | --------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [policy_id](#policy_id)                           | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-policy_id-schema.md "\#/properties/policy_id#/properties/policy_id")                                        |
-| [transaction_id](#transaction_id)                 | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-transaction_id-schema.md "\#/properties/transaction_id#/properties/transaction_id")                         |
-| [quote_id](#quote_id)                             | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-quote_id-schema.md "\#/properties/quote_id#/properties/quote_id")                                           |
-| [period_number](#period_number)                   | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-period_number-schema.md "\#/properties/period_number#/properties/period_number")                            |
-| [transaction_created_at](#transaction_created_at) | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-transaction_created_at-schema.md "\#/properties/transaction_created_at#/properties/transaction_created_at") |
-| [transaction_type](#transaction_type)             | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-transaction_type-schema.md "\#/properties/transaction_type#/properties/transaction_type")                   |
-| [policy_inception](#policy_inception)             | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-policy_inception-schema.md "\#/properties/policy_inception#/properties/policy_inception")                   |
-| [transaction_lines](#transaction_lines)           | `array`   | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-transaction_lines-schema.md "\#/properties/transaction_lines#/properties/transaction_lines")                |
-| [risk_factors](#risk_factors)                     | `array`   | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-risk_factors-schema.md "\#/properties/risk_factors#/properties/risk_factors")                               |
-| [asset](#asset)                                   | `object`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema.md "\#/properties/asset#/properties/asset")                                                    |
-| [profile](#profile)                               | `object`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema.md "\#/properties/profile#/properties/profile")                                              |
-| [cover_start](#cover_start)                       | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-cover_start-schema.md "\#/properties/cover_start#/properties/cover_start")                                  |
-| [period_start](#period_start)                     | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-period_start-schema.md "\#/properties/period_start#/properties/period_start")                               |
-| [period_end](#period_end)                         | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-period_end-schema.md "\#/properties/period_end#/properties/period_end")                                     |
-| [usage_meter_start](#usage_meter_start)           | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-usage_meter_start-schema.md "\#/properties/usage_meter_start#/properties/usage_meter_start")                |
-| [usage_meter_end](#usage_meter_end)               | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-usage_meter_end-schema.md "\#/properties/usage_meter_end#/properties/usage_meter_end")                      |
-| [usage_start](#usage_start)                       | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-usage_start-schema.md "\#/properties/usage_start#/properties/usage_start")                                  |
-| [usage_end](#usage_end)                           | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-usage_end-schema.md "\#/properties/usage_end#/properties/usage_end")                                        |
-| [\_premium_per_mile](#_premium_per_mile)          | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-_premium_per_mile-schema.md "\#/properties/\_premium_per_mile#/properties/\_premium_per_mile")              |
+| Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                         |
+| :------------------------------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [policy_id](#policy_id)                           | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-policy_id-schema.md "\#/properties/policy_id#/properties/policy_id")                                        |
+| [transaction_id](#transaction_id)                 | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-transaction_id-schema.md "\#/properties/transaction_id#/properties/transaction_id")                         |
+| [quote_id](#quote_id)                             | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-quote_id-schema.md "\#/properties/quote_id#/properties/quote_id")                                           |
+| [period_number](#period_number)                   | `integer` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-period_number-schema.md "\#/properties/period_number#/properties/period_number")                            |
+| [transaction_created_at](#transaction_created_at) | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-transaction_created_at-schema.md "\#/properties/transaction_created_at#/properties/transaction_created_at") |
+| [transaction_type](#transaction_type)             | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-transaction_type-schema.md "\#/properties/transaction_type#/properties/transaction_type")                   |
+| [policy_inception](#policy_inception)             | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-policy_inception-schema.md "\#/properties/policy_inception#/properties/policy_inception")                   |
+| [transaction_lines](#transaction_lines)           | `array`   | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-transaction_lines-schema.md "\#/properties/transaction_lines#/properties/transaction_lines")                |
+| [risk_factors](#risk_factors)                     | `array`   | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-risk_factors-schema.md "\#/properties/risk_factors#/properties/risk_factors")                               |
+| [asset](#asset)                                   | `object`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema.md "\#/properties/asset#/properties/asset")                                                    |
+| [profile](#profile)                               | `object`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-profile-schema.md "\#/properties/profile#/properties/profile")                                              |
+| [cover_start](#cover_start)                       | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-cover_start-schema.md "\#/properties/cover_start#/properties/cover_start")                                  |
+| [period_start](#period_start)                     | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-period_start-schema.md "\#/properties/period_start#/properties/period_start")                               |
+| [period_end](#period_end)                         | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-period_end-schema.md "\#/properties/period_end#/properties/period_end")                                     |
+| [usage_meter_start](#usage_meter_start)           | `integer` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-usage_meter_start-schema.md "\#/properties/usage_meter_start#/properties/usage_meter_start")                |
+| [usage_meter_end](#usage_meter_end)               | `integer` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-usage_meter_end-schema.md "\#/properties/usage_meter_end#/properties/usage_meter_end")                      |
+| [usage_start](#usage_start)                       | `integer` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-usage_start-schema.md "\#/properties/usage_start#/properties/usage_start")                                  |
+| [usage_end](#usage_end)                           | `integer` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-usage_end-schema.md "\#/properties/usage_end#/properties/usage_end")                                        |
+| [\_premium_per_mile](#_premium_per_mile)          | `integer` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-_premium_per_mile-schema.md "\#/properties/\_premium_per_mile#/properties/\_premium_per_mile")              |
 
 ## policy_id
 
@@ -49,7 +49,7 @@ A unique identifier for a policy
 -   is required
 -   Type: `string` ([The Policy_id Schema](policy_transaction-properties-the-policy_id-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-policy_id-schema.md "\#/properties/policy_id#/properties/policy_id")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-policy_id-schema.md "\#/properties/policy_id#/properties/policy_id")
 
 ### policy_id Type
 
@@ -71,7 +71,7 @@ A unique identifier for this policy transaction
 -   is required
 -   Type: `string` ([The Transaction_id Schema](policy_transaction-properties-the-transaction_id-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-transaction_id-schema.md "\#/properties/transaction_id#/properties/transaction_id")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-transaction_id-schema.md "\#/properties/transaction_id#/properties/transaction_id")
 
 ### transaction_id Type
 
@@ -93,7 +93,7 @@ A unique identifier for this version of the quote
 -   is required
 -   Type: `string` ([The Quote_id Schema](policy_transaction-properties-the-quote_id-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-quote_id-schema.md "\#/properties/quote_id#/properties/quote_id")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-quote_id-schema.md "\#/properties/quote_id#/properties/quote_id")
 
 ### quote_id Type
 
@@ -115,7 +115,7 @@ The policy period this transaction occured within.
 -   is required
 -   Type: `integer` ([The Period_number Schema](policy_transaction-properties-the-period_number-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-period_number-schema.md "\#/properties/period_number#/properties/period_number")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-period_number-schema.md "\#/properties/period_number#/properties/period_number")
 
 ### period_number Type
 
@@ -137,7 +137,7 @@ When the transaction was created
 -   is required
 -   Type: `string` ([The Transaction_created_at Schema](policy_transaction-properties-the-transaction_created_at-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-transaction_created_at-schema.md "\#/properties/transaction_created_at#/properties/transaction_created_at")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-transaction_created_at-schema.md "\#/properties/transaction_created_at#/properties/transaction_created_at")
 
 ### transaction_created_at Type
 
@@ -159,7 +159,7 @@ The type of transaction that occured
 -   is required
 -   Type: `string` ([The Transaction_type Schema](policy_transaction-properties-the-transaction_type-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-transaction_type-schema.md "\#/properties/transaction_type#/properties/transaction_type")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-transaction_type-schema.md "\#/properties/transaction_type#/properties/transaction_type")
 
 ### transaction_type Type
 
@@ -205,7 +205,7 @@ When the policy incepted.
 -   is required
 -   Type: `string` ([The Policy_inception Schema](policy_transaction-properties-the-policy_inception-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-policy_inception-schema.md "\#/properties/policy_inception#/properties/policy_inception")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-policy_inception-schema.md "\#/properties/policy_inception#/properties/policy_inception")
 
 ### policy_inception Type
 
@@ -227,7 +227,7 @@ A line of insurance cover that has been charged/refunded to the customer.
 -   is required
 -   Type: `object[]` ([The Transaction Lines schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-transaction_lines-schema.md "\#/properties/transaction_lines#/properties/transaction_lines")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-transaction_lines-schema.md "\#/properties/transaction_lines#/properties/transaction_lines")
 
 ### transaction_lines Type
 
@@ -278,7 +278,7 @@ An array that describes the factors which are used to price the insurance risk.
 -   is required
 -   Type: `object[]` ([The Risk Factors Schema](policy_transaction-properties-the-risk_factors-schema-the-risk-factors-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-risk_factors-schema.md "\#/properties/risk_factors#/properties/risk_factors")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-risk_factors-schema.md "\#/properties/risk_factors#/properties/risk_factors")
 
 ### risk_factors Type
 
@@ -317,7 +317,7 @@ An object that describes an insurable asset and it's relationship to the insured
 -   is required
 -   Type: `object` ([The Asset Schema](policy_transaction-properties-the-asset-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema.md "\#/properties/asset#/properties/asset")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema.md "\#/properties/asset#/properties/asset")
 
 ### asset Type
 
@@ -376,7 +376,7 @@ An object that describes the customer.
 -   is required
 -   Type: `object` ([The Profile Schema](policy_transaction-properties-the-profile-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema.md "\#/properties/profile#/properties/profile")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-profile-schema.md "\#/properties/profile#/properties/profile")
 
 ### profile Type
 
@@ -463,7 +463,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `string` ([The Cover_start Schema](policy_transaction-properties-the-cover_start-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-cover_start-schema.md "\#/properties/cover_start#/properties/cover_start")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-cover_start-schema.md "\#/properties/cover_start#/properties/cover_start")
 
 ### cover_start Type
 
@@ -485,7 +485,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `string` ([The Period_start Schema](policy_transaction-properties-the-period_start-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-period_start-schema.md "\#/properties/period_start#/properties/period_start")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-period_start-schema.md "\#/properties/period_start#/properties/period_start")
 
 ### period_start Type
 
@@ -507,7 +507,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `string` ([The Period_end Schema](policy_transaction-properties-the-period_end-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-period_end-schema.md "\#/properties/period_end#/properties/period_end")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-period_end-schema.md "\#/properties/period_end#/properties/period_end")
 
 ### period_end Type
 
@@ -529,7 +529,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `integer` ([The Usage_meter_start Schema](policy_transaction-properties-the-usage_meter_start-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-usage_meter_start-schema.md "\#/properties/usage_meter_start#/properties/usage_meter_start")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-usage_meter_start-schema.md "\#/properties/usage_meter_start#/properties/usage_meter_start")
 
 ### usage_meter_start Type
 
@@ -551,7 +551,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `integer` ([The Usage_meter_end Schema](policy_transaction-properties-the-usage_meter_end-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-usage_meter_end-schema.md "\#/properties/usage_meter_end#/properties/usage_meter_end")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-usage_meter_end-schema.md "\#/properties/usage_meter_end#/properties/usage_meter_end")
 
 ### usage_meter_end Type
 
@@ -573,7 +573,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `integer` ([The Usage_start Schema](policy_transaction-properties-the-usage_start-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-usage_start-schema.md "\#/properties/usage_start#/properties/usage_start")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-usage_start-schema.md "\#/properties/usage_start#/properties/usage_start")
 
 ### usage_start Type
 
@@ -595,7 +595,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `integer` ([The Usage_end Schema](policy_transaction-properties-the-usage_end-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-usage_end-schema.md "\#/properties/usage_end#/properties/usage_end")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-usage_end-schema.md "\#/properties/usage_end#/properties/usage_end")
 
 ### usage_end Type
 
@@ -617,7 +617,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `integer` ([The \_premium_per_mile Schema](policy_transaction-properties-the-_premium_per_mile-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-_premium_per_mile-schema.md "\#/properties/\_premium_per_mile#/properties/\_premium_per_mile")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-_premium_per_mile-schema.md "\#/properties/\_premium_per_mile#/properties/\_premium_per_mile")
 
 ### \_premium_per_mile Type
 

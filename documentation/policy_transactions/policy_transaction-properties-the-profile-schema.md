@@ -88,13 +88,13 @@ The default value is:
 
 # The Profile Schema Properties
 
-| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                           |
-| :-------------------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                               | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-id-schema.md "\#/properties/profile/properties/id#/properties/profile/properties/id")                                              |
-| [user_id](#user_id)                     | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-user_id-schema.md "\#/properties/profile/properties/user_id#/properties/profile/properties/user_id")                               |
-| [data](#data)                           | `object` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema.md "\#/properties/profile/properties/data#/properties/profile/properties/data")                                        |
-| [created_at](#created_at)               | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-created_at-schema.md "\#/properties/profile/properties/created_at#/properties/profile/properties/created_at")                      |
-| [policyholder_code](#policyholder_code) | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-policyholder_code-schema.md "\#/properties/profile/properties/policyholder_code#/properties/profile/properties/policyholder_code") |
+| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                              |
+| :-------------------------------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [id](#id)                               | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-id-schema.md "\#/properties/profile/properties/id#/properties/profile/properties/id")                                              |
+| [user_id](#user_id)                     | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-user_id-schema.md "\#/properties/profile/properties/user_id#/properties/profile/properties/user_id")                               |
+| [data](#data)                           | `object` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-data-schema.md "\#/properties/profile/properties/data#/properties/profile/properties/data")                                        |
+| [created_at](#created_at)               | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-created_at-schema.md "\#/properties/profile/properties/created_at#/properties/profile/properties/created_at")                      |
+| [policyholder_code](#policyholder_code) | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-policyholder_code-schema.md "\#/properties/profile/properties/policyholder_code#/properties/profile/properties/policyholder_code") |
 
 ## id
 
@@ -106,7 +106,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `string` ([The Id Schema](policy_transaction-properties-the-profile-schema-properties-the-id-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-id-schema.md "\#/properties/profile/properties/id#/properties/profile/properties/id")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-id-schema.md "\#/properties/profile/properties/id#/properties/profile/properties/id")
 
 ### id Type
 
@@ -128,7 +128,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `string` ([The User_id Schema](policy_transaction-properties-the-profile-schema-properties-the-user_id-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-user_id-schema.md "\#/properties/profile/properties/user_id#/properties/profile/properties/user_id")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-user_id-schema.md "\#/properties/profile/properties/user_id#/properties/profile/properties/user_id")
 
 ### user_id Type
 
@@ -150,7 +150,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `object` ([The Data Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema.md "\#/properties/profile/properties/data#/properties/profile/properties/data")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-data-schema.md "\#/properties/profile/properties/data#/properties/profile/properties/data")
 
 ### data Type
 
@@ -231,7 +231,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `string` ([The Created_at Schema](policy_transaction-properties-the-profile-schema-properties-the-created_at-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-created_at-schema.md "\#/properties/profile/properties/created_at#/properties/profile/properties/created_at")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-created_at-schema.md "\#/properties/profile/properties/created_at#/properties/profile/properties/created_at")
 
 ### created_at Type
 
@@ -253,7 +253,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `string` ([The Policyholder_code Schema](policy_transaction-properties-the-profile-schema-properties-the-policyholder_code-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-policyholder_code-schema.md "\#/properties/profile/properties/policyholder_code#/properties/profile/properties/policyholder_code")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-policyholder_code-schema.md "\#/properties/profile/properties/policyholder_code#/properties/profile/properties/policyholder_code")
 
 ### policyholder_code Type
 

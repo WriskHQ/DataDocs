@@ -42,12 +42,12 @@ The default value is:
 
 # The Drivinglicence Schema Properties
 
-| Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                   |
-| :------------------------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [status](#status)               | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-status-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/status#/properties/profile/properties/data/properties/drivingLicence/properties/status")                      |
-| [convictions](#convictions)     | `array`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-convictions-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/convictions#/properties/profile/properties/data/properties/drivingLicence/properties/convictions")       |
-| [entitlements](#entitlements)   | `array`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements")    |
-| [regionOfIssue](#regionOfIssue) | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-regionofissue-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/regionOfIssue#/properties/profile/properties/data/properties/drivingLicence/properties/regionOfIssue") |
+| Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                      |
+| :------------------------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [status](#status)               | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-status-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/status#/properties/profile/properties/data/properties/drivingLicence/properties/status")                      |
+| [convictions](#convictions)     | `array`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-convictions-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/convictions#/properties/profile/properties/data/properties/drivingLicence/properties/convictions")       |
+| [entitlements](#entitlements)   | `array`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements")    |
+| [regionOfIssue](#regionOfIssue) | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-regionofissue-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/regionOfIssue#/properties/profile/properties/data/properties/drivingLicence/properties/regionOfIssue") |
 
 ## status
 
@@ -59,7 +59,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `string` ([The Status Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-status-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-status-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/status#/properties/profile/properties/data/properties/drivingLicence/properties/status")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-status-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/status#/properties/profile/properties/data/properties/drivingLicence/properties/status")
 
 ### status Type
 
@@ -81,7 +81,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `array` ([The Convictions Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-convictions-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-convictions-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/convictions#/properties/profile/properties/data/properties/drivingLicence/properties/convictions")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-convictions-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/convictions#/properties/profile/properties/data/properties/drivingLicence/properties/convictions")
 
 ### convictions Type
 
@@ -105,7 +105,7 @@ Describes Entitlements attached to a customers Driving Licence.
 -   is required
 -   Type: `object[]` ([Entitlements](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema-entitlements.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements")
 
 ### entitlements Type
 
@@ -129,7 +129,7 @@ An explanation about the purpose of this instance.
 -   is required
 -   Type: `string` ([The Regionofissue Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-regionofissue-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-regionofissue-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/regionOfIssue#/properties/profile/properties/data/properties/drivingLicence/properties/regionOfIssue")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-regionofissue-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/regionOfIssue#/properties/profile/properties/data/properties/drivingLicence/properties/regionOfIssue")
 
 ### regionOfIssue Type
 

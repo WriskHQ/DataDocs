@@ -60,14 +60,14 @@ The default value is:
 
 # The Asset Schema Properties
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                |
-| :------------------------ | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                 | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-id-schema.md "\#/properties/asset/properties/id#/properties/asset/properties/id")                         |
-| [code](#code)             | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-code-schema.md "\#/properties/asset/properties/code#/properties/asset/properties/code")                   |
-| [type](#type)             | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-type-schema.md "\#/properties/asset/properties/type#/properties/asset/properties/type")                   |
-| [user_id](#user_id)       | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-user_id-schema.md "\#/properties/asset/properties/user_id#/properties/asset/properties/user_id")          |
-| [data](#data)             | `object` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema.md "\#/properties/asset/properties/data#/properties/asset/properties/data")                   |
-| [created_at](#created_at) | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-created_at-schema.md "\#/properties/asset/properties/created_at#/properties/asset/properties/created_at") |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                   |
+| :------------------------ | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [id](#id)                 | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-id-schema.md "\#/properties/asset/properties/id#/properties/asset/properties/id")                         |
+| [code](#code)             | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-code-schema.md "\#/properties/asset/properties/code#/properties/asset/properties/code")                   |
+| [type](#type)             | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-type-schema.md "\#/properties/asset/properties/type#/properties/asset/properties/type")                   |
+| [user_id](#user_id)       | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-user_id-schema.md "\#/properties/asset/properties/user_id#/properties/asset/properties/user_id")          |
+| [data](#data)             | `object` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema.md "\#/properties/asset/properties/data#/properties/asset/properties/data")                   |
+| [created_at](#created_at) | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-created_at-schema.md "\#/properties/asset/properties/created_at#/properties/asset/properties/created_at") |
 
 ## id
 
@@ -79,7 +79,7 @@ A unique identifier for the version of the asset.
 -   is required
 -   Type: `string` ([The Id Schema](policy_transaction-properties-the-asset-schema-properties-the-id-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-id-schema.md "\#/properties/asset/properties/id#/properties/asset/properties/id")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-id-schema.md "\#/properties/asset/properties/id#/properties/asset/properties/id")
 
 ### id Type
 
@@ -101,7 +101,7 @@ A unique idenitifer for the asset over it's lifetime.
 -   is required
 -   Type: `string` ([The Code Schema](policy_transaction-properties-the-asset-schema-properties-the-code-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-code-schema.md "\#/properties/asset/properties/code#/properties/asset/properties/code")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-code-schema.md "\#/properties/asset/properties/code#/properties/asset/properties/code")
 
 ### code Type
 
@@ -123,7 +123,7 @@ The type of asset.
 -   is required
 -   Type: `string` ([The Type Schema](policy_transaction-properties-the-asset-schema-properties-the-type-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-type-schema.md "\#/properties/asset/properties/type#/properties/asset/properties/type")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-type-schema.md "\#/properties/asset/properties/type#/properties/asset/properties/type")
 
 ### type Type
 
@@ -145,7 +145,7 @@ The user id of which the asset belongs to.
 -   is required
 -   Type: `string` ([The User_id Schema](policy_transaction-properties-the-asset-schema-properties-the-user_id-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-user_id-schema.md "\#/properties/asset/properties/user_id#/properties/asset/properties/user_id")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-user_id-schema.md "\#/properties/asset/properties/user_id#/properties/asset/properties/user_id")
 
 ### user_id Type
 
@@ -167,7 +167,7 @@ An object that describes the asset and it's relationship to the user.
 -   is required
 -   Type: `object` ([The Data Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema.md "\#/properties/asset/properties/data#/properties/asset/properties/data")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema.md "\#/properties/asset/properties/data#/properties/asset/properties/data")
 
 ### data Type
 
@@ -219,7 +219,7 @@ The datetime the asset version was created.
 -   is required
 -   Type: `string` ([The Created_at Schema](policy_transaction-properties-the-asset-schema-properties-the-created_at-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-created_at-schema.md "\#/properties/asset/properties/created_at#/properties/asset/properties/created_at")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-created_at-schema.md "\#/properties/asset/properties/created_at#/properties/asset/properties/created_at")
 
 ### created_at Type
 

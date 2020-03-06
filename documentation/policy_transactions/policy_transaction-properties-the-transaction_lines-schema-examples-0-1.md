@@ -1,4 +1,4 @@
-# Untitled undefined type in The Root Schema Schema
+# Untitled undefined type in Policy Transaction Schema
 
 ```txt
 #/properties/transaction_lines#/properties/transaction_lines/examples/0/1

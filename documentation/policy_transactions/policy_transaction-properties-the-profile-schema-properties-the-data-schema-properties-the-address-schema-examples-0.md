@@ -1,4 +1,4 @@
-# Untitled Residential in The Root Schema Schema
+# Untitled Residential in Policy Transaction Schema
 
 ```txt
 #/properties/profile/properties/data/properties/address#/properties/profile/properties/data/properties/address/examples/0

@@ -53,18 +53,18 @@ The default value is:
 
 # The Data Schema Properties
 
-| Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                               |
-| :------------------------------------------------ | --------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [usage](#usage)                                   | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-usage-schema.md "\#/properties/asset/properties/data/properties/usage#/properties/asset/properties/data/properties/usage")                                                    |
-| [legalOwner](#legalOwner)                         | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-legalowner-schema.md "\#/properties/asset/properties/data/properties/legalOwner#/properties/asset/properties/data/properties/legalOwner")                                     |
-| [racBlackBox](#racBlackBox)                       | `boolean` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-racblackbox-schema.md "\#/properties/asset/properties/data/properties/racBlackBox#/properties/asset/properties/data/properties/racBlackBox")                                  |
-| [annualMileage](#annualMileage)                   | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-annualmileage-schema.md "\#/properties/asset/properties/data/properties/annualMileage#/properties/asset/properties/data/properties/annualMileage")                            |
-| [modifications](#modifications)                   | `boolean` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-modifications-schema.md "\#/properties/asset/properties/data/properties/modifications#/properties/asset/properties/data/properties/modifications")                            |
-| [specification](#specification)                   | `object`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema.md "\#/properties/asset/properties/data/properties/specification#/properties/asset/properties/data/properties/specification")                            |
-| [noClaimsDiscount](#noClaimsDiscount)             | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-noclaimsdiscount-schema.md "\#/properties/asset/properties/data/properties/noClaimsDiscount#/properties/asset/properties/data/properties/noClaimsDiscount")                   |
-| [registeredKeeper](#registeredKeeper)             | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-registeredkeeper-schema.md "\#/properties/asset/properties/data/properties/registeredKeeper#/properties/asset/properties/data/properties/registeredKeeper")                   |
-| [overnightLocation](#overnightLocation)           | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-overnightlocation-schema.md "\#/properties/asset/properties/data/properties/overnightLocation#/properties/asset/properties/data/properties/overnightLocation")                |
-| [specificationTimestamp](#specificationTimestamp) | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specificationtimestamp-schema.md "\#/properties/asset/properties/data/properties/specificationTimestamp#/properties/asset/properties/data/properties/specificationTimestamp") |
+| Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                  |
+| :------------------------------------------------ | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [usage](#usage)                                   | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-usage-schema.md "\#/properties/asset/properties/data/properties/usage#/properties/asset/properties/data/properties/usage")                                                    |
+| [legalOwner](#legalOwner)                         | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-legalowner-schema.md "\#/properties/asset/properties/data/properties/legalOwner#/properties/asset/properties/data/properties/legalOwner")                                     |
+| [racBlackBox](#racBlackBox)                       | `boolean` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-racblackbox-schema.md "\#/properties/asset/properties/data/properties/racBlackBox#/properties/asset/properties/data/properties/racBlackBox")                                  |
+| [annualMileage](#annualMileage)                   | `integer` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-annualmileage-schema.md "\#/properties/asset/properties/data/properties/annualMileage#/properties/asset/properties/data/properties/annualMileage")                            |
+| [modifications](#modifications)                   | `boolean` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-modifications-schema.md "\#/properties/asset/properties/data/properties/modifications#/properties/asset/properties/data/properties/modifications")                            |
+| [specification](#specification)                   | `object`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema.md "\#/properties/asset/properties/data/properties/specification#/properties/asset/properties/data/properties/specification")                            |
+| [noClaimsDiscount](#noClaimsDiscount)             | `integer` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-noclaimsdiscount-schema.md "\#/properties/asset/properties/data/properties/noClaimsDiscount#/properties/asset/properties/data/properties/noClaimsDiscount")                   |
+| [registeredKeeper](#registeredKeeper)             | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-registeredkeeper-schema.md "\#/properties/asset/properties/data/properties/registeredKeeper#/properties/asset/properties/data/properties/registeredKeeper")                   |
+| [overnightLocation](#overnightLocation)           | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-overnightlocation-schema.md "\#/properties/asset/properties/data/properties/overnightLocation#/properties/asset/properties/data/properties/overnightLocation")                |
+| [specificationTimestamp](#specificationTimestamp) | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specificationtimestamp-schema.md "\#/properties/asset/properties/data/properties/specificationTimestamp#/properties/asset/properties/data/properties/specificationTimestamp") |
 
 ## usage
 
@@ -76,7 +76,7 @@ The type of usage for a vehicle
 -   is required
 -   Type: `string` ([The Usage Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-usage-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-usage-schema.md "\#/properties/asset/properties/data/properties/usage#/properties/asset/properties/data/properties/usage")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-usage-schema.md "\#/properties/asset/properties/data/properties/usage#/properties/asset/properties/data/properties/usage")
 
 ### usage Type
 
@@ -98,7 +98,7 @@ The legal owner of the vehicle
 -   is required
 -   Type: `string` ([The Legalowner Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-legalowner-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-legalowner-schema.md "\#/properties/asset/properties/data/properties/legalOwner#/properties/asset/properties/data/properties/legalOwner")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-legalowner-schema.md "\#/properties/asset/properties/data/properties/legalOwner#/properties/asset/properties/data/properties/legalOwner")
 
 ### legalOwner Type
 
@@ -120,7 +120,7 @@ Whether the vehicle has an RAC Black Box installed
 -   is required
 -   Type: `boolean` ([The Racblackbox Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-racblackbox-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-racblackbox-schema.md "\#/properties/asset/properties/data/properties/racBlackBox#/properties/asset/properties/data/properties/racBlackBox")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-racblackbox-schema.md "\#/properties/asset/properties/data/properties/racBlackBox#/properties/asset/properties/data/properties/racBlackBox")
 
 ### racBlackBox Type
 
@@ -142,7 +142,7 @@ The estimated annual mileage the customer input for this vehicle.
 -   is required
 -   Type: `integer` ([The Annualmileage Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-annualmileage-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-annualmileage-schema.md "\#/properties/asset/properties/data/properties/annualMileage#/properties/asset/properties/data/properties/annualMileage")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-annualmileage-schema.md "\#/properties/asset/properties/data/properties/annualMileage#/properties/asset/properties/data/properties/annualMileage")
 
 ### annualMileage Type
 
@@ -164,7 +164,7 @@ Whether the vehicle has modifications
 -   is required
 -   Type: `boolean` ([The Modifications Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-modifications-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-modifications-schema.md "\#/properties/asset/properties/data/properties/modifications#/properties/asset/properties/data/properties/modifications")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-modifications-schema.md "\#/properties/asset/properties/data/properties/modifications#/properties/asset/properties/data/properties/modifications")
 
 ### modifications Type
 
@@ -186,7 +186,7 @@ The speification of the vehicle.
 -   is required
 -   Type: `object` ([The Specification Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema.md "\#/properties/asset/properties/data/properties/specification#/properties/asset/properties/data/properties/specification")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema.md "\#/properties/asset/properties/data/properties/specification#/properties/asset/properties/data/properties/specification")
 
 ### specification Type
 
@@ -227,7 +227,7 @@ The customers No Claims Discount applied to this vehicle.
 -   is required
 -   Type: `integer` ([The Noclaimsdiscount Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-noclaimsdiscount-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-noclaimsdiscount-schema.md "\#/properties/asset/properties/data/properties/noClaimsDiscount#/properties/asset/properties/data/properties/noClaimsDiscount")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-noclaimsdiscount-schema.md "\#/properties/asset/properties/data/properties/noClaimsDiscount#/properties/asset/properties/data/properties/noClaimsDiscount")
 
 ### noClaimsDiscount Type
 
@@ -249,7 +249,7 @@ The registered keeper of the vehicle.
 -   is required
 -   Type: `string` ([The Registeredkeeper Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-registeredkeeper-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-registeredkeeper-schema.md "\#/properties/asset/properties/data/properties/registeredKeeper#/properties/asset/properties/data/properties/registeredKeeper")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-registeredkeeper-schema.md "\#/properties/asset/properties/data/properties/registeredKeeper#/properties/asset/properties/data/properties/registeredKeeper")
 
 ### registeredKeeper Type
 
@@ -291,7 +291,7 @@ The location the vehicle is kept ovenight.
 -   is required
 -   Type: `string` ([The Overnightlocation Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-overnightlocation-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-overnightlocation-schema.md "\#/properties/asset/properties/data/properties/overnightLocation#/properties/asset/properties/data/properties/overnightLocation")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-overnightlocation-schema.md "\#/properties/asset/properties/data/properties/overnightLocation#/properties/asset/properties/data/properties/overnightLocation")
 
 ### overnightLocation Type
 
@@ -365,7 +365,7 @@ The date the specification was requested from the vehicle search provider.
 -   is required
 -   Type: `string` ([The Specificationtimestamp Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specificationtimestamp-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specificationtimestamp-schema.md "\#/properties/asset/properties/data/properties/specificationTimestamp#/properties/asset/properties/data/properties/specificationTimestamp")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specificationtimestamp-schema.md "\#/properties/asset/properties/data/properties/specificationTimestamp#/properties/asset/properties/data/properties/specificationTimestamp")
 
 ### specificationTimestamp Type
 

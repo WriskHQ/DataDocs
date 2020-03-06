@@ -42,18 +42,18 @@ The default value is:
 
 # The Specification Schema Properties
 
-| Property                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                             |
-| :-------------------------------- | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [fuel](#fuel)                     | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-fuel-schema.md "\#/properties/asset/properties/data/properties/specification/properties/fuel#/properties/asset/properties/data/properties/specification/properties/fuel")                               |
-| [make](#make)                     | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-make-schema.md "\#/properties/asset/properties/data/properties/specification/properties/make#/properties/asset/properties/data/properties/specification/properties/make")                               |
-| [year](#year)                     | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-year-schema.md "\#/properties/asset/properties/data/properties/specification/properties/year#/properties/asset/properties/data/properties/specification/properties/year")                               |
-| [model](#model)                   | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-model-schema.md "\#/properties/asset/properties/data/properties/specification/properties/model#/properties/asset/properties/data/properties/specification/properties/model")                            |
-| [value](#value)                   | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-value-schema.md "\#/properties/asset/properties/data/properties/specification/properties/value#/properties/asset/properties/data/properties/specification/properties/value")                            |
-| [steering](#steering)             | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-steering-schema.md "\#/properties/asset/properties/data/properties/specification/properties/steering#/properties/asset/properties/data/properties/specification/properties/steering")                   |
-| [licencePlate](#licencePlate)     | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-licenceplate-schema.md "\#/properties/asset/properties/data/properties/specification/properties/licencePlate#/properties/asset/properties/data/properties/specification/properties/licencePlate")       |
-| [transmission](#transmission)     | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-transmission-schema.md "\#/properties/asset/properties/data/properties/specification/properties/transmission#/properties/asset/properties/data/properties/specification/properties/transmission")       |
-| [numberOfSeats](#numberOfSeats)   | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-numberofseats-schema.md "\#/properties/asset/properties/data/properties/specification/properties/numberOfSeats#/properties/asset/properties/data/properties/specification/properties/numberOfSeats")    |
-| [insuranceGroup](#insuranceGroup) | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-insurancegroup-schema.md "\#/properties/asset/properties/data/properties/specification/properties/insuranceGroup#/properties/asset/properties/data/properties/specification/properties/insuranceGroup") |
+| Property                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                |
+| :-------------------------------- | --------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [fuel](#fuel)                     | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-fuel-schema.md "\#/properties/asset/properties/data/properties/specification/properties/fuel#/properties/asset/properties/data/properties/specification/properties/fuel")                               |
+| [make](#make)                     | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-make-schema.md "\#/properties/asset/properties/data/properties/specification/properties/make#/properties/asset/properties/data/properties/specification/properties/make")                               |
+| [year](#year)                     | `integer` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-year-schema.md "\#/properties/asset/properties/data/properties/specification/properties/year#/properties/asset/properties/data/properties/specification/properties/year")                               |
+| [model](#model)                   | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-model-schema.md "\#/properties/asset/properties/data/properties/specification/properties/model#/properties/asset/properties/data/properties/specification/properties/model")                            |
+| [value](#value)                   | `integer` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-value-schema.md "\#/properties/asset/properties/data/properties/specification/properties/value#/properties/asset/properties/data/properties/specification/properties/value")                            |
+| [steering](#steering)             | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-steering-schema.md "\#/properties/asset/properties/data/properties/specification/properties/steering#/properties/asset/properties/data/properties/specification/properties/steering")                   |
+| [licencePlate](#licencePlate)     | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-licenceplate-schema.md "\#/properties/asset/properties/data/properties/specification/properties/licencePlate#/properties/asset/properties/data/properties/specification/properties/licencePlate")       |
+| [transmission](#transmission)     | `string`  | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-transmission-schema.md "\#/properties/asset/properties/data/properties/specification/properties/transmission#/properties/asset/properties/data/properties/specification/properties/transmission")       |
+| [numberOfSeats](#numberOfSeats)   | `integer` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-numberofseats-schema.md "\#/properties/asset/properties/data/properties/specification/properties/numberOfSeats#/properties/asset/properties/data/properties/specification/properties/numberOfSeats")    |
+| [insuranceGroup](#insuranceGroup) | `integer` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-insurancegroup-schema.md "\#/properties/asset/properties/data/properties/specification/properties/insuranceGroup#/properties/asset/properties/data/properties/specification/properties/insuranceGroup") |
 
 ## fuel
 
@@ -65,7 +65,7 @@ The Fuel type of the vehicle.
 -   is required
 -   Type: `string` ([The Fuel Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-fuel-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-fuel-schema.md "\#/properties/asset/properties/data/properties/specification/properties/fuel#/properties/asset/properties/data/properties/specification/properties/fuel")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-fuel-schema.md "\#/properties/asset/properties/data/properties/specification/properties/fuel#/properties/asset/properties/data/properties/specification/properties/fuel")
 
 ### fuel Type
 
@@ -103,7 +103,7 @@ The OEM of the vehicle.
 -   is required
 -   Type: `string` ([The Make Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-make-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-make-schema.md "\#/properties/asset/properties/data/properties/specification/properties/make#/properties/asset/properties/data/properties/specification/properties/make")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-make-schema.md "\#/properties/asset/properties/data/properties/specification/properties/make#/properties/asset/properties/data/properties/specification/properties/make")
 
 ### make Type
 
@@ -125,7 +125,7 @@ The year the vehicle was manufactured
 -   is required
 -   Type: `integer` ([The Year Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-year-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-year-schema.md "\#/properties/asset/properties/data/properties/specification/properties/year#/properties/asset/properties/data/properties/specification/properties/year")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-year-schema.md "\#/properties/asset/properties/data/properties/specification/properties/year#/properties/asset/properties/data/properties/specification/properties/year")
 
 ### year Type
 
@@ -147,7 +147,7 @@ The model variant of the vehicle.
 -   is required
 -   Type: `string` ([The Model Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-model-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-model-schema.md "\#/properties/asset/properties/data/properties/specification/properties/model#/properties/asset/properties/data/properties/specification/properties/model")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-model-schema.md "\#/properties/asset/properties/data/properties/specification/properties/model#/properties/asset/properties/data/properties/specification/properties/model")
 
 ### model Type
 
@@ -169,7 +169,7 @@ The estimated value of the vehicle.
 -   is required
 -   Type: `integer` ([The Value Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-value-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-value-schema.md "\#/properties/asset/properties/data/properties/specification/properties/value#/properties/asset/properties/data/properties/specification/properties/value")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-value-schema.md "\#/properties/asset/properties/data/properties/specification/properties/value#/properties/asset/properties/data/properties/specification/properties/value")
 
 ### value Type
 
@@ -191,7 +191,7 @@ The steering configuration of the vehicle
 -   is required
 -   Type: `string` ([The Steering Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-steering-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-steering-schema.md "\#/properties/asset/properties/data/properties/specification/properties/steering#/properties/asset/properties/data/properties/specification/properties/steering")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-steering-schema.md "\#/properties/asset/properties/data/properties/specification/properties/steering#/properties/asset/properties/data/properties/specification/properties/steering")
 
 ### steering Type
 
@@ -217,7 +217,7 @@ The Reg Plate of the vehicle
 -   is required
 -   Type: `string` ([The Licenceplate Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-licenceplate-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-licenceplate-schema.md "\#/properties/asset/properties/data/properties/specification/properties/licencePlate#/properties/asset/properties/data/properties/specification/properties/licencePlate")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-licenceplate-schema.md "\#/properties/asset/properties/data/properties/specification/properties/licencePlate#/properties/asset/properties/data/properties/specification/properties/licencePlate")
 
 ### licencePlate Type
 
@@ -239,7 +239,7 @@ The Transmission of the vehicle
 -   is required
 -   Type: `string` ([The Transmission Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-transmission-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-transmission-schema.md "\#/properties/asset/properties/data/properties/specification/properties/transmission#/properties/asset/properties/data/properties/specification/properties/transmission")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-transmission-schema.md "\#/properties/asset/properties/data/properties/specification/properties/transmission#/properties/asset/properties/data/properties/specification/properties/transmission")
 
 ### transmission Type
 
@@ -285,7 +285,7 @@ The number of seats fitted in the vehicle.
 -   is required
 -   Type: `integer` ([The Numberofseats Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-numberofseats-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-numberofseats-schema.md "\#/properties/asset/properties/data/properties/specification/properties/numberOfSeats#/properties/asset/properties/data/properties/specification/properties/numberOfSeats")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-numberofseats-schema.md "\#/properties/asset/properties/data/properties/specification/properties/numberOfSeats#/properties/asset/properties/data/properties/specification/properties/numberOfSeats")
 
 ### numberOfSeats Type
 
@@ -307,7 +307,7 @@ The Thatcham Insurance Group for the vehicle.
 -   is required
 -   Type: `integer` ([The Insurancegroup Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-insurancegroup-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-insurancegroup-schema.md "\#/properties/asset/properties/data/properties/specification/properties/insuranceGroup#/properties/asset/properties/data/properties/specification/properties/insuranceGroup")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema-properties-the-insurancegroup-schema.md "\#/properties/asset/properties/data/properties/specification/properties/insuranceGroup#/properties/asset/properties/data/properties/specification/properties/insuranceGroup")
 
 ### insuranceGroup Type
 

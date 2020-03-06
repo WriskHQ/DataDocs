@@ -1,4 +1,4 @@
-# Untitled F in The Root Schema Schema
+# Untitled F in Policy Transaction Schema
 
 ```txt
 #/properties/profile/properties/data/properties/drivingLicence#/properties/profile/properties/data/properties/drivingLicence/examples/0/entitlements/0

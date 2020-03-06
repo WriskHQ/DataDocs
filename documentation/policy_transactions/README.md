@@ -2,7 +2,7 @@
 
 ## Top-level Schemas
 
--   [The Root Schema](./policy_transaction.md "The root schema comprises the entire JSON document") – `http://example.com/example.json`
+-   [Policy Transaction](./policy_transaction.md "The root schema comprises the entire JSON document") – `http://example.com/example.json`
 
 ## Other Schemas
 

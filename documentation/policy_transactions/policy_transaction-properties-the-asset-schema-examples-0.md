@@ -1,4 +1,4 @@
-# Untitled Vehicle in The Root Schema Schema
+# Untitled Vehicle in Policy Transaction Schema
 
 ```txt
 #/properties/asset#/properties/asset/examples/0

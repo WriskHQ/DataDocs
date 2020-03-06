@@ -41,10 +41,10 @@ The default value is:
 
 # The Risk Factors Schema Properties
 
-| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                              |
-| :-------------------------------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [factor_code](#factor_code)             | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-risk_factors-schema-the-risk-factors-schema-properties-the-factor_code-schema.md "\#/properties/risk_factors/items/properties/factor_code#/properties/risk_factors/items/properties/factor_code")                   |
-| [factor_level_code](#factor_level_code) | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-risk_factors-schema-the-risk-factors-schema-properties-the-factor_level_code-schema.md "\#/properties/risk_factors/items/properties/factor_level_code#/properties/risk_factors/items/properties/factor_level_code") |
+| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                 |
+| :-------------------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [factor_code](#factor_code)             | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-risk_factors-schema-the-risk-factors-schema-properties-the-factor_code-schema.md "\#/properties/risk_factors/items/properties/factor_code#/properties/risk_factors/items/properties/factor_code")                   |
+| [factor_level_code](#factor_level_code) | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-risk_factors-schema-the-risk-factors-schema-properties-the-factor_level_code-schema.md "\#/properties/risk_factors/items/properties/factor_level_code#/properties/risk_factors/items/properties/factor_level_code") |
 
 ## factor_code
 
@@ -56,7 +56,7 @@ The key for any given risk factor.
 -   is required
 -   Type: `string` ([The Factor_code Schema](policy_transaction-properties-the-risk_factors-schema-the-risk-factors-schema-properties-the-factor_code-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-risk_factors-schema-the-risk-factors-schema-properties-the-factor_code-schema.md "\#/properties/risk_factors/items/properties/factor_code#/properties/risk_factors/items/properties/factor_code")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-risk_factors-schema-the-risk-factors-schema-properties-the-factor_code-schema.md "\#/properties/risk_factors/items/properties/factor_code#/properties/risk_factors/items/properties/factor_code")
 
 ### factor_code Type
 
@@ -78,7 +78,7 @@ The value for any given risk factor.
 -   is required
 -   Type: `string` ([The Factor_level_code Schema](policy_transaction-properties-the-risk_factors-schema-the-risk-factors-schema-properties-the-factor_level_code-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-risk_factors-schema-the-risk-factors-schema-properties-the-factor_level_code-schema.md "\#/properties/risk_factors/items/properties/factor_level_code#/properties/risk_factors/items/properties/factor_level_code")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-risk_factors-schema-the-risk-factors-schema-properties-the-factor_level_code-schema.md "\#/properties/risk_factors/items/properties/factor_level_code#/properties/risk_factors/items/properties/factor_level_code")
 
 ### factor_level_code Type
 
