@@ -30,7 +30,7 @@ The default value is:
   "type": "Residential",
   "countryName": "United Kingdom",
   "pcaId": "GB|RM|B|15592178",
-  "postalCode": "N10 3UP",
+  "postalCode": "N40 3UP",
   "city": "London",
   "countryIso2": "GB",
   "countryIso3": "GBR",
@@ -40,8 +40,8 @@ The default value is:
   "line1": "19C Woodland Rise",
   "domesticId": "15592178",
   "languageAlternatives": "ENG",
-  "barcode": "(N103UP2AH)",
-  "label": "19C Woodland Rise\nLONDON\nN10 3UP\nUNITED KINGDOM",
+  "barcode": "(N403UP2AH)",
+  "label": "19C Woodland Rise\nLONDON\nN40 3UP\nUNITED KINGDOM",
   "countryIsoNumber": "826",
   "dataLevel": "Premise",
   "adminAreaName": "Haringey",
@@ -136,7 +136,7 @@ An explanation about the purpose of this instance.
 ### label Examples
 
 ```json
-"19C Woodland Rise\nLONDON\nN10 3UP\nUNITED KINGDOM"
+"19C Woodland Rise\nLONDON\nN40 3UP\nUNITED KINGDOM"
 ```
 
 ## line1
@@ -224,7 +224,7 @@ An explanation about the purpose of this instance.
 ### barcode Examples
 
 ```json
-"(N103UP2AH)"
+"(N403UP2AH)"
 ```
 
 ## language
@@ -312,7 +312,7 @@ An explanation about the purpose of this instance.
 ### postalCode Examples
 
 ```json
-"N10 3UP"
+"N40 3UP"
 ```
 
 ## countryIso2

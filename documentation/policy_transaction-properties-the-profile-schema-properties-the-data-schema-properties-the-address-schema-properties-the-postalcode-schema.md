@@ -18,5 +18,5 @@ An explanation about the purpose of this instance.
 ## postalCode Examples
 
 ```json
-"N10 3UP"
+"N40 3UP"
 ```
