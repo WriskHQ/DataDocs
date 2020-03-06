@@ -13,7 +13,7 @@ A line of insurance cover that has been charged/refunded to the customer.
 
 ## transaction_lines Type
 
-`object[]` ([The Transaction Lines schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema.md))
+`object[]` ([Transaction Lines](policy_transaction-properties-the-transaction_lines-schema-transaction-lines.md))
 
 ## transaction_lines Default Value
 

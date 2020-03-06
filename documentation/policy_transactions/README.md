@@ -18,7 +18,7 @@
 -   [The Property Schema](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-property-schema.md "An explanation about the purpose of this instance") – `#/properties/profile/properties/data/properties/property#/properties/profile/properties/data/properties/property`
 -   [The Risk Factors Schema](./policy_transaction-properties-the-risk_factors-schema-the-risk-factors-schema.md "A single rating factor") – `#/properties/risk_factors/items#/properties/risk_factors/items`
 -   [The Specification Schema](./policy_transaction-properties-the-asset-schema-properties-the-data-schema-properties-the-specification-schema.md "The speification of the vehicle") – `#/properties/asset/properties/data/properties/specification#/properties/asset/properties/data/properties/specification`
--   [The Transaction Lines schema](./policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema.md "A object describing the lines of insurance being charged/refunded") – `#/properties/transaction_lines/items#/properties/transaction_lines/items`
+-   [Transaction Lines](./policy_transaction-properties-the-transaction_lines-schema-transaction-lines.md "A object describing the lines of insurance being charged/refunded") – `#/properties/transaction_lines/items#/properties/transaction_lines/items`
 
 ### Arrays
 

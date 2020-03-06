@@ -133,7 +133,7 @@
       "items": {
         "$id": "#/properties/transaction_lines/items",
         "type": "object",
-        "title": "The Transaction Lines schema",
+        "title": "Transaction Lines",
         "description": "A object describing the lines of insurance being charged/refunded.",
         "default": {},
         "examples": [

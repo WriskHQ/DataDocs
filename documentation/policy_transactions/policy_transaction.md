@@ -225,13 +225,13 @@ A line of insurance cover that has been charged/refunded to the customer.
 `transaction_lines`
 
 -   is required
--   Type: `object[]` ([The Transaction Lines schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema.md))
+-   Type: `object[]` ([Transaction Lines](policy_transaction-properties-the-transaction_lines-schema-transaction-lines.md))
 -   cannot be null
 -   defined in: [Policy Transaction](policy_transaction-properties-the-transaction_lines-schema.md "\#/properties/transaction_lines#/properties/transaction_lines")
 
 ### transaction_lines Type
 
-`object[]` ([The Transaction Lines schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema.md))
+`object[]` ([Transaction Lines](policy_transaction-properties-the-transaction_lines-schema-transaction-lines.md))
 
 ### transaction_lines Default Value
 
