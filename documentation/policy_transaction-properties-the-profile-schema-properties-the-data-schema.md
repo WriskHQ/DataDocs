@@ -61,7 +61,7 @@ The default value is:
   },
   "lastName": "Heiss",
   "bankrupt": false,
-  "email": "benny+2@wrisk.co",
+  "email": "Joey+Who+Bloggs@wrisk.co",
   "advisedByDoctorNotToDrive": false,
   "drivingLicence": {
     "convictions": [],
@@ -123,7 +123,7 @@ An explanation about the purpose of this instance.
 ### email Examples
 
 ```json
-"benny+2@wrisk.co"
+"Joey+Who+Bloggs@wrisk.co"
 ```
 
 ## address

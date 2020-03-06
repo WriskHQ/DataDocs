@@ -18,5 +18,5 @@ An explanation about the purpose of this instance.
 ## email Examples
 
 ```json
-"benny+2@wrisk.co"
+"Joey+Who+Bloggs@wrisk.co"
 ```
