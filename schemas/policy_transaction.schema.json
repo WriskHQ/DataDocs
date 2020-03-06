@@ -1197,7 +1197,7 @@
                   "$id": "#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements",
                   "type": "array",
                   "title": "Entitlements",
-                  "description": "Describes Entitlements attached to a customers Driving Licnce.",
+                  "description": "Describes Entitlements attached to a customers Driving Licence.",
                   "default": [],
                   "items": {
                     "$id": "#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items",

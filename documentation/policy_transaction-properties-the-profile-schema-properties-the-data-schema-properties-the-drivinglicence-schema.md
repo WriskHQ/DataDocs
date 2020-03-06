@@ -97,7 +97,7 @@ The default value is:
 
 ## entitlements
 
-Describes Entitlements attached to a customers Driving Licnce.
+Describes Entitlements attached to a customers Driving Licence.
 
 
 `entitlements`

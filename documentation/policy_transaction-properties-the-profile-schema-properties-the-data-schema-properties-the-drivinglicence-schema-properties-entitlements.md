@@ -4,7 +4,7 @@
 #/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements
 ```
 
-Describes Entitlements attached to a customers Driving Licnce.
+Describes Entitlements attached to a customers Driving Licence.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

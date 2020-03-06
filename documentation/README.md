@@ -22,7 +22,7 @@
 
 ### Arrays
 
--   [Entitlements](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements.md "Describes Entitlements attached to a customers Driving Licnce") – `#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements`
+-   [Entitlements](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements.md "Describes Entitlements attached to a customers Driving Licence") – `#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements`
 -   [The Convictions Schema](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-convictions-schema.md "An explanation about the purpose of this instance") – `#/properties/profile/properties/data/properties/drivingLicence/properties/convictions#/properties/profile/properties/data/properties/drivingLicence/properties/convictions`
 -   [The Risk_factors Schema](./policy_transaction-properties-the-risk_factors-schema.md "An explanation about the purpose of this instance") – `#/properties/risk_factors#/properties/risk_factors`
 -   [The Transaction_lines Schema](./policy_transaction-properties-the-transaction_lines-schema.md "An explanation about the purpose of this instance") – `#/properties/transaction_lines#/properties/transaction_lines`
