@@ -41,7 +41,7 @@ The root schema comprises the entire JSON document.
 
 ## policy_id
 
-An explanation about the purpose of this instance.
+A unique identifier for a policy
 
 
 `policy_id`
@@ -63,7 +63,7 @@ An explanation about the purpose of this instance.
 
 ## transaction_id
 
-An explanation about the purpose of this instance.
+A unique identifier for this policy transaction
 
 
 `transaction_id`
@@ -85,7 +85,7 @@ An explanation about the purpose of this instance.
 
 ## quote_id
 
-An explanation about the purpose of this instance.
+A unique identifier for this version of the quote
 
 
 `quote_id`
@@ -107,7 +107,7 @@ An explanation about the purpose of this instance.
 
 ## period_number
 
-An explanation about the purpose of this instance.
+The policy period this transaction occured within.
 
 
 `period_number`
@@ -129,7 +129,7 @@ An explanation about the purpose of this instance.
 
 ## transaction_created_at
 
-An explanation about the purpose of this instance.
+When the transaction was created
 
 
 `transaction_created_at`
@@ -151,7 +151,7 @@ An explanation about the purpose of this instance.
 
 ## transaction_type
 
-An explanation about the purpose of this instance.
+The type of transaction that occured
 
 
 `transaction_type`
@@ -168,7 +168,31 @@ An explanation about the purpose of this instance.
 ### transaction_type Examples
 
 ```json
+"RENEW"
+```
+
+```json
+"ADJREMOVE"
+```
+
+```json
+"ADD"
+```
+
+```json
+"REMOVE"
+```
+
+```json
 "NEW"
+```
+
+```json
+"ADJADD"
+```
+
+```json
+"CANCEL"
 ```
 
 ## policy_inception

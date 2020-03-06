@@ -4,7 +4,7 @@
 #/properties/transaction_created_at#/properties/transaction_created_at
 ```
 
-An explanation about the purpose of this instance.
+When the transaction was created
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                           |

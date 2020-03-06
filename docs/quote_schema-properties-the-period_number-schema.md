@@ -4,7 +4,7 @@
 #/properties/period_number#/properties/period_number
 ```
 
-An explanation about the purpose of this instance.
+The policy period this transaction occured within.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                           |

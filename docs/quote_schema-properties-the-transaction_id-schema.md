@@ -4,7 +4,7 @@
 #/properties/transaction_id#/properties/transaction_id
 ```
 
-An explanation about the purpose of this instance.
+A unique identifier for this policy transaction
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                           |

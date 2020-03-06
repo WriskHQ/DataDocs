@@ -4,7 +4,7 @@
 #/properties/quote_id#/properties/quote_id
 ```
 
-An explanation about the purpose of this instance.
+A unique identifier for this version of the quote
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                           |

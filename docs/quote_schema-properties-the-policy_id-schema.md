@@ -4,7 +4,7 @@
 #/properties/policy_id#/properties/policy_id
 ```
 
-An explanation about the purpose of this instance.
+A unique identifier for a policy
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                           |

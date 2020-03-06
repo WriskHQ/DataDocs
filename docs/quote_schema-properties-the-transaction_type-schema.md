@@ -4,7 +4,7 @@
 #/properties/transaction_type#/properties/transaction_type
 ```
 
-An explanation about the purpose of this instance.
+The type of transaction that occured
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                           |
@@ -18,5 +18,29 @@ An explanation about the purpose of this instance.
 ## transaction_type Examples
 
 ```json
+"RENEW"
+```
+
+```json
+"ADJREMOVE"
+```
+
+```json
+"ADD"
+```
+
+```json
+"REMOVE"
+```
+
+```json
 "NEW"
+```
+
+```json
+"ADJADD"
+```
+
+```json
+"CANCEL"
 ```
