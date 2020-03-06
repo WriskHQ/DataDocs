@@ -1197,7 +1197,7 @@
                   "$id": "#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements",
                   "type": "array",
                   "title": "The Entitlements Schema",
-                  "description": "An explanation about the purpose of this instance.",
+                  "description": "Describes Entitlements attached to a customers Driving Licnce.",
                   "default": [],
                   "items": {
                     "$id": "#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items",
@@ -1225,7 +1225,8 @@
                         "description": "An explanation about the purpose of this instance.",
                         "default": "",
                         "examples": [
-                          "B"
+                          "B",
+                          "B auto"
                         ]
                       },
                       "type": {
@@ -1235,7 +1236,8 @@
                         "description": "An explanation about the purpose of this instance.",
                         "default": "",
                         "examples": [
-                          "F"
+                          "F",
+                          "P"
                         ]
                       },
                       "validFrom": {
