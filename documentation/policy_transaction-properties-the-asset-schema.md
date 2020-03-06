@@ -4,7 +4,7 @@
 #/properties/asset#/properties/asset
 ```
 
-An explanation about the purpose of this instance.
+An object that describes an insurable asset and it's relationship to the insured.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -93,7 +93,7 @@ An explanation about the purpose of this instance.
 
 ## code
 
-An explanation about the purpose of this instance.
+A unique idenitifer for the asset
 
 
 `code`

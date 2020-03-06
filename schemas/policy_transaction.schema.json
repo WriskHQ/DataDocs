@@ -253,7 +253,7 @@
             "factor_code": "Age"
           }
         ]
-      ]
+      ],
       "items": {
         "$id": "#/properties/risk_factors/items",
         "type": "object",

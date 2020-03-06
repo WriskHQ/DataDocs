@@ -265,9 +265,24 @@ The default value is:
 []
 ```
 
+### risk_factors Examples
+
+```json
+[
+  {
+    "factor_level_code": "false",
+    "factor_code": "AdvisedByDoctorNotToDrive"
+  },
+  {
+    "factor_level_code": "41",
+    "factor_code": "Age"
+  }
+]
+```
+
 ## asset
 
-An explanation about the purpose of this instance.
+An object that describes an insurable asset and it's relationship to the insured.
 
 
 `asset`
