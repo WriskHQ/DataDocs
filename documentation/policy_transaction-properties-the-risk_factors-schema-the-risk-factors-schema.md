@@ -4,7 +4,7 @@
 #/properties/risk_factors/items#/properties/risk_factors/items
 ```
 
-An explanation about the purpose of this instance.
+A single rating factor
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -48,7 +48,7 @@ The default value is:
 
 ## factor_code
 
-An explanation about the purpose of this instance.
+The key for any given risk factor.
 
 
 `factor_code`
@@ -70,7 +70,7 @@ An explanation about the purpose of this instance.
 
 ## factor_level_code
 
-An explanation about the purpose of this instance.
+The value for any given risk factor.
 
 
 `factor_level_code`

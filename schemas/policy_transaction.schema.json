@@ -33,7 +33,7 @@
       "description": "A unique identifier for a policy",
       "default": "",
       "examples": [
-        "ABC"
+        "pcy_1D2gnm6nKwlHISCH"
       ]
     },
     "transaction_id": {
@@ -43,7 +43,7 @@
       "description": "A unique identifier for this policy transaction",
       "default": "",
       "examples": [
-        "ABC"
+        "ptxn_7nuAFtakj2KDEEtG"
       ]
     },
     "quote_id": {
@@ -106,7 +106,7 @@
       "$id": "#/properties/transaction_lines",
       "type": "array",
       "title": "The Transaction_lines Schema",
-      "description": "An explanation about the purpose of this instance.",
+      "description": "A line of insurance cover that has been charged/refunded to the customer.",
       "default": [],
       "items": {
         "$id": "#/properties/transaction_lines/items",
@@ -149,59 +149,65 @@
         "properties": {
           "transaction_id": {
             "$id": "#/properties/transaction_lines/items/properties/transaction_id",
-            "type": "integer",
+            "type": "string",
             "title": "The Transaction_id Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": 0,
+            "description": "The transaction ",
+            "default": "",
             "examples": [
-              123
+              "ptxn_7nuAFtakj2KDEEtG"
             ]
           },
           "cover_code": {
             "$id": "#/properties/transaction_lines/items/properties/cover_code",
             "type": "string",
             "title": "The Cover_code Schema",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "A code that describes the line of cover",
             "default": "",
             "examples": [
-              "ncb_protection"
+              "ncb_protection",
+              "driver_injury",
+              "misfuelling",
+              "damage_to_car",
+              "foreign_travel",
+              "backup_ride",
+              "legal_expenses"
             ]
           },
           "transaction_premium": {
             "$id": "#/properties/transaction_lines/items/properties/transaction_premium",
             "type": "number",
             "title": "The Transaction_premium Schema",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "The total premium due for this line of cover on this transaction",
             "default": 0,
             "examples": [
-              -3.799191
+              3.79
             ]
           },
           "transaction_premium_tax": {
             "$id": "#/properties/transaction_lines/items/properties/transaction_premium_tax",
             "type": "number",
             "title": "The Transaction_premium_tax Schema",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "The total Insurance Premium Tax due for this line of cover on this transaction",
             "default": 0,
             "examples": [
-              -0.4
+              0.40
             ]
           },
           "agency_commission": {
             "$id": "#/properties/transaction_lines/items/properties/agency_commission",
             "type": "number",
             "title": "The Agency_commission Schema",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "The Commission to be kept by Wrisk and it's distribution partner for this transaction",
             "default": 0,
             "examples": [
-              -0.339214
+              0.33
             ]
           },
           "sum_insured": {
             "$id": "#/properties/transaction_lines/items/properties/sum_insured",
             "type": "integer",
             "title": "The Sum_insured Schema",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "The amount insured on this transaction - Not applicable to car insurance.",
             "default": 0,
             "examples": [
               1
@@ -211,7 +217,7 @@
             "$id": "#/properties/transaction_lines/items/properties/excess",
             "type": "integer",
             "title": "The Excess Schema",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "The customers' excess for this line of cover.",
             "default": 0,
             "examples": [
               0
@@ -221,7 +227,7 @@
             "$id": "#/properties/transaction_lines/items/properties/cover_period_start",
             "type": "string",
             "title": "The Cover_period_start Schema",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "The start of the period in which the transaction was created",
             "default": "",
             "examples": [
               "2019-10-15T16:08:25Z"
@@ -234,13 +240,13 @@
       "$id": "#/properties/risk_factors",
       "type": "array",
       "title": "The Risk_factors Schema",
-      "description": "An explanation about the purpose of this instance.",
+      "description": "An array that describes the factors which are used to price the insurance risk.",
       "default": [],
       "items": {
         "$id": "#/properties/risk_factors/items",
         "type": "object",
         "title": "The Risk Factors Schema",
-        "description": "An explanation about the purpose of this instance.",
+        "description": "A single rating factor",
         "default": {},
         "examples": [
           {
@@ -261,7 +267,7 @@
             "$id": "#/properties/risk_factors/items/properties/factor_code",
             "type": "string",
             "title": "The Factor_code Schema",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "The key for any given risk factor.",
             "default": "",
             "examples": [
               "AdvisedByDoctorNotToDrive"
@@ -271,7 +277,7 @@
             "$id": "#/properties/risk_factors/items/properties/factor_level_code",
             "type": "string",
             "title": "The Factor_level_code Schema",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "The value for any given risk factor.",
             "default": "",
             "examples": [
               "false"
@@ -1196,7 +1202,7 @@
                 "entitlements": {
                   "$id": "#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements",
                   "type": "array",
-                  "title": "Entitlements",
+                  "title": "The Entitlements Schema",
                   "description": "Describes Entitlements attached to a customers Driving Licence.",
                   "default": [],
                   "items": {

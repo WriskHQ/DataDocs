@@ -1,22 +1,22 @@
-# The Policy_id Schema Schema
+# The Validfrom Schema Schema
 
 ```txt
-#/properties/policy_id#/properties/policy_id
+#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items/properties/validFrom#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items/properties/validFrom
 ```
 
-A unique identifier for a policy
+An explanation about the purpose of this instance.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------ |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [policy_transaction.schema.json\*](../out/policy_transaction.schema.json "open original schema") |
 
-## policy_id Type
+## validFrom Type
 
-`string` ([The Policy_id Schema](policy_transaction-properties-the-policy_id-schema.md))
+`string` ([The Validfrom Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema-entitlements-properties-the-validfrom-schema.md))
 
-## policy_id Examples
+## validFrom Examples
 
 ```json
-"pcy_1D2gnm6nKwlHISCH"
+"2000-11-01"
 ```

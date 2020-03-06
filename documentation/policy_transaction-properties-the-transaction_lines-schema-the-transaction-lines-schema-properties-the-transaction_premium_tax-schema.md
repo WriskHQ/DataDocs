@@ -4,7 +4,7 @@
 #/properties/transaction_lines/items/properties/transaction_premium_tax#/properties/transaction_lines/items/properties/transaction_premium_tax
 ```
 
-An explanation about the purpose of this instance.
+The total Insurance Premium Tax due for this line of cover on this transaction
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -18,5 +18,5 @@ An explanation about the purpose of this instance.
 ## transaction_premium_tax Examples
 
 ```json
--0.4
+0.4
 ```

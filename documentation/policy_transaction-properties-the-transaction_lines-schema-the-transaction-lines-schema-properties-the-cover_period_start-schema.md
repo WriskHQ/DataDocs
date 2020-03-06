@@ -4,7 +4,7 @@
 #/properties/transaction_lines/items/properties/cover_period_start#/properties/transaction_lines/items/properties/cover_period_start
 ```
 
-An explanation about the purpose of this instance.
+The start of the period in which the transaction was created
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

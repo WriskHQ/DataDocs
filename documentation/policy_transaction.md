@@ -58,7 +58,7 @@ A unique identifier for a policy
 ### policy_id Examples
 
 ```json
-"ABC"
+"pcy_1D2gnm6nKwlHISCH"
 ```
 
 ## transaction_id
@@ -80,7 +80,7 @@ A unique identifier for this policy transaction
 ### transaction_id Examples
 
 ```json
-"ABC"
+"ptxn_7nuAFtakj2KDEEtG"
 ```
 
 ## quote_id
@@ -219,7 +219,7 @@ When the policy incepted.
 
 ## transaction_lines
 
-An explanation about the purpose of this instance.
+A line of insurance cover that has been charged/refunded to the customer.
 
 
 `transaction_lines`
@@ -243,7 +243,7 @@ The default value is:
 
 ## risk_factors
 
-An explanation about the purpose of this instance.
+An array that describes the factors which are used to price the insurance risk.
 
 
 `risk_factors`

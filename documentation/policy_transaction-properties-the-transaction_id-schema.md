@@ -18,5 +18,5 @@ A unique identifier for this policy transaction
 ## transaction_id Examples
 
 ```json
-"ABC"
+"ptxn_7nuAFtakj2KDEEtG"
 ```

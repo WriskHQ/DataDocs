@@ -4,7 +4,7 @@
 #/properties/transaction_lines/items/properties/agency_commission#/properties/transaction_lines/items/properties/agency_commission
 ```
 
-An explanation about the purpose of this instance.
+The Commission to be kept by Wrisk and it's distribution partner for this transaction
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -18,5 +18,5 @@ An explanation about the purpose of this instance.
 ## agency_commission Examples
 
 ```json
--0.339214
+0.33
 ```

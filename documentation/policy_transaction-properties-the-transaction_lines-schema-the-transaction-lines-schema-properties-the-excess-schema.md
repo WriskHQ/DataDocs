@@ -4,7 +4,7 @@
 #/properties/transaction_lines/items/properties/excess#/properties/transaction_lines/items/properties/excess
 ```
 
-An explanation about the purpose of this instance.
+The customers' excess for this line of cover.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

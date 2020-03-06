@@ -4,7 +4,7 @@
 #/properties/transaction_lines/items/properties/transaction_premium#/properties/transaction_lines/items/properties/transaction_premium
 ```
 
-An explanation about the purpose of this instance.
+The total premium due for this line of cover on this transaction
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -18,5 +18,5 @@ An explanation about the purpose of this instance.
 ## transaction_premium Examples
 
 ```json
--3.799191
+3.79
 ```

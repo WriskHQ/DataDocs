@@ -55,7 +55,7 @@ The default value is:
 
 | Property                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                    |
 | :-------------------------------------------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [transaction_id](#transaction_id)                   | `integer` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema-properties-the-transaction_id-schema.md "\#/properties/transaction_lines/items/properties/transaction_id#/properties/transaction_lines/items/properties/transaction_id")                            |
+| [transaction_id](#transaction_id)                   | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema-properties-the-transaction_id-schema.md "\#/properties/transaction_lines/items/properties/transaction_id#/properties/transaction_lines/items/properties/transaction_id")                            |
 | [cover_code](#cover_code)                           | `string`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema-properties-the-cover_code-schema.md "\#/properties/transaction_lines/items/properties/cover_code#/properties/transaction_lines/items/properties/cover_code")                                        |
 | [transaction_premium](#transaction_premium)         | `number`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema-properties-the-transaction_premium-schema.md "\#/properties/transaction_lines/items/properties/transaction_premium#/properties/transaction_lines/items/properties/transaction_premium")             |
 | [transaction_premium_tax](#transaction_premium_tax) | `number`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema-properties-the-transaction_premium_tax-schema.md "\#/properties/transaction_lines/items/properties/transaction_premium_tax#/properties/transaction_lines/items/properties/transaction_premium_tax") |
@@ -66,29 +66,29 @@ The default value is:
 
 ## transaction_id
 
-An explanation about the purpose of this instance.
+The transaction 
 
 
 `transaction_id`
 
 -   is required
--   Type: `integer` ([The Transaction_id Schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema-properties-the-transaction_id-schema.md))
+-   Type: `string` ([The Transaction_id Schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema-properties-the-transaction_id-schema.md))
 -   cannot be null
 -   defined in: [The Root Schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema-properties-the-transaction_id-schema.md "\#/properties/transaction_lines/items/properties/transaction_id#/properties/transaction_lines/items/properties/transaction_id")
 
 ### transaction_id Type
 
-`integer` ([The Transaction_id Schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema-properties-the-transaction_id-schema.md))
+`string` ([The Transaction_id Schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema-properties-the-transaction_id-schema.md))
 
 ### transaction_id Examples
 
 ```json
-123
+"ptxn_7nuAFtakj2KDEEtG"
 ```
 
 ## cover_code
 
-An explanation about the purpose of this instance.
+A code that describes the line of cover
 
 
 `cover_code`
@@ -108,9 +108,33 @@ An explanation about the purpose of this instance.
 "ncb_protection"
 ```
 
+```json
+"driver_injury"
+```
+
+```json
+"misfuelling"
+```
+
+```json
+"damage_to_car"
+```
+
+```json
+"foreign_travel"
+```
+
+```json
+"backup_ride"
+```
+
+```json
+"legal_expenses"
+```
+
 ## transaction_premium
 
-An explanation about the purpose of this instance.
+The total premium due for this line of cover on this transaction
 
 
 `transaction_premium`
@@ -127,12 +151,12 @@ An explanation about the purpose of this instance.
 ### transaction_premium Examples
 
 ```json
--3.799191
+3.79
 ```
 
 ## transaction_premium_tax
 
-An explanation about the purpose of this instance.
+The total Insurance Premium Tax due for this line of cover on this transaction
 
 
 `transaction_premium_tax`
@@ -149,12 +173,12 @@ An explanation about the purpose of this instance.
 ### transaction_premium_tax Examples
 
 ```json
--0.4
+0.4
 ```
 
 ## agency_commission
 
-An explanation about the purpose of this instance.
+The Commission to be kept by Wrisk and it's distribution partner for this transaction
 
 
 `agency_commission`
@@ -171,12 +195,12 @@ An explanation about the purpose of this instance.
 ### agency_commission Examples
 
 ```json
--0.339214
+0.33
 ```
 
 ## sum_insured
 
-An explanation about the purpose of this instance.
+The amount insured on this transaction - Not applicable to car insurance.
 
 
 `sum_insured`
@@ -198,7 +222,7 @@ An explanation about the purpose of this instance.
 
 ## excess
 
-An explanation about the purpose of this instance.
+The customers' excess for this line of cover.
 
 
 `excess`
@@ -220,7 +244,7 @@ An explanation about the purpose of this instance.
 
 ## cover_period_start
 
-An explanation about the purpose of this instance.
+The start of the period in which the transaction was created
 
 
 `cover_period_start`

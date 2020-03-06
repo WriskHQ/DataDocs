@@ -4,7 +4,7 @@
 #/properties/transaction_lines/items/properties/cover_code#/properties/transaction_lines/items/properties/cover_code
 ```
 
-An explanation about the purpose of this instance.
+A code that describes the line of cover
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -19,4 +19,28 @@ An explanation about the purpose of this instance.
 
 ```json
 "ncb_protection"
+```
+
+```json
+"driver_injury"
+```
+
+```json
+"misfuelling"
+```
+
+```json
+"damage_to_car"
+```
+
+```json
+"foreign_travel"
+```
+
+```json
+"backup_ride"
+```
+
+```json
+"legal_expenses"
 ```

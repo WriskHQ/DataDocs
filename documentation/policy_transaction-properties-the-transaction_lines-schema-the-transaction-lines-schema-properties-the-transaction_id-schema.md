@@ -4,7 +4,7 @@
 #/properties/transaction_lines/items/properties/transaction_id#/properties/transaction_lines/items/properties/transaction_id
 ```
 
-An explanation about the purpose of this instance.
+The transaction 
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -13,10 +13,10 @@ An explanation about the purpose of this instance.
 
 ## transaction_id Type
 
-`integer` ([The Transaction_id Schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema-properties-the-transaction_id-schema.md))
+`string` ([The Transaction_id Schema](policy_transaction-properties-the-transaction_lines-schema-the-transaction-lines-schema-properties-the-transaction_id-schema.md))
 
 ## transaction_id Examples
 
 ```json
-123
+"ptxn_7nuAFtakj2KDEEtG"
 ```

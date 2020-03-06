@@ -4,7 +4,7 @@
 #/properties/transaction_lines#/properties/transaction_lines
 ```
 
-An explanation about the purpose of this instance.
+A line of insurance cover that has been charged/refunded to the customer.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

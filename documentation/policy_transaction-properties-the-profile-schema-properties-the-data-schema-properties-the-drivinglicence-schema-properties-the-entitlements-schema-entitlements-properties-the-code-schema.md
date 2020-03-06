@@ -1,22 +1,26 @@
-# The Policy_id Schema Schema
+# The Code Schema Schema
 
 ```txt
-#/properties/policy_id#/properties/policy_id
+#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items/properties/code#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items/properties/code
 ```
 
-A unique identifier for a policy
+An explanation about the purpose of this instance.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------ |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [policy_transaction.schema.json\*](../out/policy_transaction.schema.json "open original schema") |
 
-## policy_id Type
+## code Type
 
-`string` ([The Policy_id Schema](policy_transaction-properties-the-policy_id-schema.md))
+`string` ([The Code Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema-entitlements-properties-the-code-schema.md))
 
-## policy_id Examples
+## code Examples
 
 ```json
-"pcy_1D2gnm6nKwlHISCH"
+"B"
+```
+
+```json
+"B auto"
 ```

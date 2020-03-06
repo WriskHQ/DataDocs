@@ -4,7 +4,7 @@
 #/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements
 ```
 
-Describes Entitlements attached to a customers Driving Licnce.
+Describes Entitlements attached to a customers Driving Licence.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -13,7 +13,7 @@ Describes Entitlements attached to a customers Driving Licnce.
 
 ## entitlements Type
 
-`object[]` ([Entitlements Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema-entitlements-schema.md))
+`object[]` ([Entitlements](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema-entitlements.md))
 
 ## entitlements Default Value
 

@@ -4,7 +4,7 @@
 #/properties/risk_factors/items/properties/factor_code#/properties/risk_factors/items/properties/factor_code
 ```
 
-An explanation about the purpose of this instance.
+The key for any given risk factor.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

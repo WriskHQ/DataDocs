@@ -4,7 +4,7 @@
 #/properties/risk_factors#/properties/risk_factors
 ```
 
-An explanation about the purpose of this instance.
+An array that describes the factors which are used to price the insurance risk.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

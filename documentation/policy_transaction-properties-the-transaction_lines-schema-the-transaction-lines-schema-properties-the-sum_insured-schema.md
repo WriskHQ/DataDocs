@@ -4,7 +4,7 @@
 #/properties/transaction_lines/items/properties/sum_insured#/properties/transaction_lines/items/properties/sum_insured
 ```
 
-An explanation about the purpose of this instance.
+The amount insured on this transaction - Not applicable to car insurance.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
