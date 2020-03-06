@@ -4,7 +4,7 @@
 #/properties/policy_inception#/properties/policy_inception
 ```
 
-An explanation about the purpose of this instance.
+When the policy incepted.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                           |

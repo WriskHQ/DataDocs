@@ -197,7 +197,7 @@ The type of transaction that occured
 
 ## policy_inception
 
-An explanation about the purpose of this instance.
+When the policy incepted.
 
 
 `policy_inception`

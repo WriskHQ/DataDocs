@@ -96,7 +96,7 @@
       "$id": "#/properties/policy_inception",
       "type": "string",
       "title": "The Policy_inception Schema",
-      "description": "An explanation about the purpose of this instance.",
+      "description": "When the policy incepted.",
       "default": "",
       "examples": [
         "2019-10-15T15:58:54Z"
