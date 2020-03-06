@@ -8,7 +8,7 @@
 
 ### Objects
 
--   [Entitlements Schema](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema-entitlements-schema.md "An explanation about the purpose of this instance") – `#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items`
+-   [Entitlements Schema](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements-entitlements-schema.md "An explanation about the purpose of this instance") – `#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items`
 -   [The Address Schema](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-address-schema.md "An explanation about the purpose of this instance") – `#/properties/profile/properties/data/properties/address#/properties/profile/properties/data/properties/address`
 -   [The Asset Schema](./policy_transaction-properties-the-asset-schema.md "An explanation about the purpose of this instance") – `#/properties/asset#/properties/asset`
 -   [The Data Schema](./policy_transaction-properties-the-asset-schema-properties-the-data-schema.md "An explanation about the purpose of this instance") – `#/properties/asset/properties/data#/properties/asset/properties/data`
@@ -22,8 +22,8 @@
 
 ### Arrays
 
+-   [Entitlements](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements.md "Describes Entitlements attached to a customers Driving Licnce") – `#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements`
 -   [The Convictions Schema](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-convictions-schema.md "An explanation about the purpose of this instance") – `#/properties/profile/properties/data/properties/drivingLicence/properties/convictions#/properties/profile/properties/data/properties/drivingLicence/properties/convictions`
--   [The Entitlements Schema](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema.md "Describes Entitlements attached to a customers Driving Licnce") – `#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements`
 -   [The Risk_factors Schema](./policy_transaction-properties-the-risk_factors-schema.md "An explanation about the purpose of this instance") – `#/properties/risk_factors#/properties/risk_factors`
 -   [The Transaction_lines Schema](./policy_transaction-properties-the-transaction_lines-schema.md "An explanation about the purpose of this instance") – `#/properties/transaction_lines#/properties/transaction_lines`
 -   [The Vehicleclaimshistory Schema](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-vehicleclaimshistory-schema.md "An explanation about the purpose of this instance") – `#/properties/profile/properties/data/properties/vehicleClaimsHistory#/properties/profile/properties/data/properties/vehicleClaimsHistory`

@@ -46,7 +46,7 @@ The default value is:
 | :------------------------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [status](#status)               | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-status-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/status#/properties/profile/properties/data/properties/drivingLicence/properties/status")                      |
 | [convictions](#convictions)     | `array`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-convictions-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/convictions#/properties/profile/properties/data/properties/drivingLicence/properties/convictions")       |
-| [entitlements](#entitlements)   | `array`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements")    |
+| [entitlements](#entitlements)   | `array`  | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements")               |
 | [regionOfIssue](#regionOfIssue) | `string` | Required | cannot be null | [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-regionofissue-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/regionOfIssue#/properties/profile/properties/data/properties/drivingLicence/properties/regionOfIssue") |
 
 ## status
@@ -103,13 +103,13 @@ Describes Entitlements attached to a customers Driving Licnce.
 `entitlements`
 
 -   is required
--   Type: `object[]` ([Entitlements Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema-entitlements-schema.md))
+-   Type: `object[]` ([Entitlements Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements-entitlements-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements")
+-   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements")
 
 ### entitlements Type
 
-`object[]` ([Entitlements Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-the-entitlements-schema-entitlements-schema.md))
+`object[]` ([Entitlements Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements-entitlements-schema.md))
 
 ### entitlements Default Value
 
