@@ -8,7 +8,7 @@
 
 ### Objects
 
--   [Entitlements Schema](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements-entitlements-schema.md "An explanation about the purpose of this instance") – `#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items`
+-   [Entitlements](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements-entitlements.md "An explanation about the purpose of this instance") – `#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items`
 -   [The Address Schema](./policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-address-schema.md "An explanation about the purpose of this instance") – `#/properties/profile/properties/data/properties/address#/properties/profile/properties/data/properties/address`
 -   [The Asset Schema](./policy_transaction-properties-the-asset-schema.md "An explanation about the purpose of this instance") – `#/properties/asset#/properties/asset`
 -   [The Data Schema](./policy_transaction-properties-the-asset-schema-properties-the-data-schema.md "An explanation about the purpose of this instance") – `#/properties/asset/properties/data#/properties/asset/properties/data`

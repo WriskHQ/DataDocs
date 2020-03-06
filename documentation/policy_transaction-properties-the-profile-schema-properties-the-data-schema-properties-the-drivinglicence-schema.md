@@ -103,13 +103,13 @@ Describes Entitlements attached to a customers Driving Licence.
 `entitlements`
 
 -   is required
--   Type: `object[]` ([Entitlements Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements-entitlements-schema.md))
+-   Type: `object[]` ([Entitlements](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements-entitlements.md))
 -   cannot be null
 -   defined in: [The Root Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements.md "\#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements")
 
 ### entitlements Type
 
-`object[]` ([Entitlements Schema](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements-entitlements-schema.md))
+`object[]` ([Entitlements](policy_transaction-properties-the-profile-schema-properties-the-data-schema-properties-the-drivinglicence-schema-properties-entitlements-entitlements.md))
 
 ### entitlements Default Value
 

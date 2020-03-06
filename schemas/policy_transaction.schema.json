@@ -1202,7 +1202,7 @@
                   "items": {
                     "$id": "#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items",
                     "type": "object",
-                    "title": "Entitlements Schema",
+                    "title": "Entitlements",
                     "description": "An explanation about the purpose of this instance.",
                     "default": {},
                     "examples": [
