@@ -111,7 +111,7 @@
       "items": {
         "$id": "#/properties/transaction_lines/items",
         "type": "object",
-        "title": "The Items Schema",
+        "title": "The Transaction Lines schema",
         "description": "An explanation about the purpose of this instance.",
         "default": {},
         "examples": [
@@ -239,7 +239,7 @@
       "items": {
         "$id": "#/properties/risk_factors/items",
         "type": "object",
-        "title": "The Items Schema",
+        "title": "The Risk Factors Schema",
         "description": "An explanation about the purpose of this instance.",
         "default": {},
         "examples": [
@@ -1202,7 +1202,7 @@
                   "items": {
                     "$id": "#/properties/profile/properties/data/properties/drivingLicence/properties/entitlements/items",
                     "type": "object",
-                    "title": "The Items Schema",
+                    "title": "Entitlements Schema",
                     "description": "An explanation about the purpose of this instance.",
                     "default": {},
                     "examples": [
