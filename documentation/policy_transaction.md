@@ -243,7 +243,7 @@ The default value is:
 
 ## risk_factors
 
-An array that describes the factors which are used to price the insurance risk.
+An array that describes the factors which are used to price the insurace risk.
 
 
 `risk_factors`

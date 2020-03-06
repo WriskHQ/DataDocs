@@ -240,7 +240,7 @@
       "$id": "#/properties/risk_factors",
       "type": "array",
       "title": "The Risk_factors Schema",
-      "description": "An array that describes the factors which are used to price the insurance risk.",
+      "description": "An array that describes the factors which are used to price the insurace risk.",
       "default": [],
       "examples": [
         [
