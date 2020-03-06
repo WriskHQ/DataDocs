@@ -242,6 +242,18 @@
       "title": "The Risk_factors Schema",
       "description": "An array that describes the factors which are used to price the insurance risk.",
       "default": [],
+      "examples": [
+        [
+          {
+            "factor_level_code": "false",
+            "factor_code": "AdvisedByDoctorNotToDrive"
+          },
+          {
+            "factor_level_code": "41",
+            "factor_code": "Age"
+          }
+        ]
+      ]
       "items": {
         "$id": "#/properties/risk_factors/items",
         "type": "object",
@@ -290,7 +302,7 @@
       "$id": "#/properties/asset",
       "type": "object",
       "title": "The Asset Schema",
-      "description": "An explanation about the purpose of this instance.",
+      "description": "An object that describes an insurable asset and it's relationship to the insured.",
       "default": {},
       "examples": [
         {
@@ -347,7 +359,7 @@
           "$id": "#/properties/asset/properties/code",
           "type": "string",
           "title": "The Code Schema",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "A unique idenitifer for the asset",
           "default": "",
           "examples": [
             "itm_kTKwvEyaHiUEFVTw"
