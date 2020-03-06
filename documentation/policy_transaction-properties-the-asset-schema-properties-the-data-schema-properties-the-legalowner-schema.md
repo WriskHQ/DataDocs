@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/legalOwner#/properties/asset/properties/data/properties/legalOwner
 ```
 
-An explanation about the purpose of this instance.
+The legal owner of the vehicle
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

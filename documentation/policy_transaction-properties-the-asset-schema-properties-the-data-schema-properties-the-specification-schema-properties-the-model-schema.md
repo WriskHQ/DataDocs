@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/specification/properties/model#/properties/asset/properties/data/properties/specification/properties/model
 ```
 
-An explanation about the purpose of this instance.
+The model variant of the vehicle.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

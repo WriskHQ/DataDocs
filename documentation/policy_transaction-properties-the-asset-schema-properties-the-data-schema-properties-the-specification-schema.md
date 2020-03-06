@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/specification#/properties/asset/properties/data/properties/specification
 ```
 
-An explanation about the purpose of this instance.
+The speification of the vehicle.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -57,7 +57,7 @@ The default value is:
 
 ## fuel
 
-An explanation about the purpose of this instance.
+The Fuel type of the vehicle.
 
 
 `fuel`
@@ -77,9 +77,25 @@ An explanation about the purpose of this instance.
 "DIESEL"
 ```
 
+```json
+"Diesel"
+```
+
+```json
+"PETROL"
+```
+
+```json
+"Petrol"
+```
+
+```json
+"ELECTRIC"
+```
+
 ## make
 
-An explanation about the purpose of this instance.
+The OEM of the vehicle.
 
 
 `make`
@@ -101,7 +117,7 @@ An explanation about the purpose of this instance.
 
 ## year
 
-An explanation about the purpose of this instance.
+The year the vehicle was manufactured
 
 
 `year`
@@ -123,7 +139,7 @@ An explanation about the purpose of this instance.
 
 ## model
 
-An explanation about the purpose of this instance.
+The model variant of the vehicle.
 
 
 `model`
@@ -145,7 +161,7 @@ An explanation about the purpose of this instance.
 
 ## value
 
-An explanation about the purpose of this instance.
+The estimated value of the vehicle.
 
 
 `value`
@@ -167,7 +183,7 @@ An explanation about the purpose of this instance.
 
 ## steering
 
-An explanation about the purpose of this instance.
+The steering configuration of the vehicle
 
 
 `steering`
@@ -187,9 +203,13 @@ An explanation about the purpose of this instance.
 "RHD"
 ```
 
+```json
+"LHD"
+```
+
 ## licencePlate
 
-An explanation about the purpose of this instance.
+The Reg Plate of the vehicle
 
 
 `licencePlate`
@@ -211,7 +231,7 @@ An explanation about the purpose of this instance.
 
 ## transmission
 
-An explanation about the purpose of this instance.
+The Transmission of the vehicle
 
 
 `transmission`
@@ -231,9 +251,33 @@ An explanation about the purpose of this instance.
 "AUTOMATIC"
 ```
 
+```json
+"MANUAL"
+```
+
+```json
+"EDC"
+```
+
+```json
+"DSG"
+```
+
+```json
+"CVT"
+```
+
+```json
+"Sequential Automatic"
+```
+
+```json
+"ETG"
+```
+
 ## numberOfSeats
 
-An explanation about the purpose of this instance.
+The number of seats fitted in the vehicle.
 
 
 `numberOfSeats`
@@ -255,7 +299,7 @@ An explanation about the purpose of this instance.
 
 ## insuranceGroup
 
-An explanation about the purpose of this instance.
+The Thatcham Insurance Group for the vehicle.
 
 
 `insuranceGroup`

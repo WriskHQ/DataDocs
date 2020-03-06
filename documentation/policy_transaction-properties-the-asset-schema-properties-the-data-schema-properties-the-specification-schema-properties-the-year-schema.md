@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/specification/properties/year#/properties/asset/properties/data/properties/specification/properties/year
 ```
 
-An explanation about the purpose of this instance.
+The year the vehicle was manufactured
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/registeredKeeper#/properties/asset/properties/data/properties/registeredKeeper
 ```
 
-An explanation about the purpose of this instance.
+The registered keeper of the vehicle.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -19,4 +19,24 @@ An explanation about the purpose of this instance.
 
 ```json
 "PolicyHolder"
+```
+
+```json
+"SpousePartner"
+```
+
+```json
+"Other"
+```
+
+```json
+"Employer"
+```
+
+```json
+"OtherFamilyMember"
+```
+
+```json
+"ParentGuardian"
 ```

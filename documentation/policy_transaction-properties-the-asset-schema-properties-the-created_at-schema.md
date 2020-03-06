@@ -4,7 +4,7 @@
 #/properties/asset/properties/created_at#/properties/asset/properties/created_at
 ```
 
-An explanation about the purpose of this instance.
+The datetime the asset version was created.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

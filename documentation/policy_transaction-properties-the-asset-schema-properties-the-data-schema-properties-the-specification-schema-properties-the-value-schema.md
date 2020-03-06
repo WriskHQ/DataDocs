@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/specification/properties/value#/properties/asset/properties/data/properties/specification/properties/value
 ```
 
-An explanation about the purpose of this instance.
+The estimated value of the vehicle.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

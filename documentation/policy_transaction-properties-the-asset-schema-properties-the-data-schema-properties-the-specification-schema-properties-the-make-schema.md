@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/specification/properties/make#/properties/asset/properties/data/properties/specification/properties/make
 ```
 
-An explanation about the purpose of this instance.
+The OEM of the vehicle.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

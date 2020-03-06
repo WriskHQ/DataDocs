@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/specification/properties/transmission#/properties/asset/properties/data/properties/specification/properties/transmission
 ```
 
-An explanation about the purpose of this instance.
+The Transmission of the vehicle
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -19,4 +19,28 @@ An explanation about the purpose of this instance.
 
 ```json
 "AUTOMATIC"
+```
+
+```json
+"MANUAL"
+```
+
+```json
+"EDC"
+```
+
+```json
+"DSG"
+```
+
+```json
+"CVT"
+```
+
+```json
+"Sequential Automatic"
+```
+
+```json
+"ETG"
 ```

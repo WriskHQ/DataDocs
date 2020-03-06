@@ -71,7 +71,7 @@ The default value is:
 
 ## id
 
-An explanation about the purpose of this instance.
+A unique identifier for the version of the asset.
 
 
 `id`
@@ -93,7 +93,7 @@ An explanation about the purpose of this instance.
 
 ## code
 
-A unique idenitifer for the asset
+A unique idenitifer for the asset over it's lifetime.
 
 
 `code`
@@ -115,7 +115,7 @@ A unique idenitifer for the asset
 
 ## type
 
-An explanation about the purpose of this instance.
+The type of asset.
 
 
 `type`
@@ -137,7 +137,7 @@ An explanation about the purpose of this instance.
 
 ## user_id
 
-An explanation about the purpose of this instance.
+The user id of which the asset belongs to.
 
 
 `user_id`
@@ -159,7 +159,7 @@ An explanation about the purpose of this instance.
 
 ## data
 
-An explanation about the purpose of this instance.
+An object that describes the asset and it's relationship to the user.
 
 
 `data`
@@ -211,7 +211,7 @@ The default value is:
 
 ## created_at
 
-An explanation about the purpose of this instance.
+The datetime the asset version was created.
 
 
 `created_at`

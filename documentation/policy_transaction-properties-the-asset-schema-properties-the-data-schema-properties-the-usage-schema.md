@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/usage#/properties/asset/properties/data/properties/usage
 ```
 
-An explanation about the purpose of this instance.
+The type of usage for a vehicle
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

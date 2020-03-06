@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/noClaimsDiscount#/properties/asset/properties/data/properties/noClaimsDiscount
 ```
 
-An explanation about the purpose of this instance.
+The customers No Claims Discount applied to this vehicle.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/modifications#/properties/asset/properties/data/properties/modifications
 ```
 
-An explanation about the purpose of this instance.
+Whether the vehicle has modifications
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

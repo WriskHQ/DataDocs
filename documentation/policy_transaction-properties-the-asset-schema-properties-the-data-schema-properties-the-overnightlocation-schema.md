@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/overnightLocation#/properties/asset/properties/data/properties/overnightLocation
 ```
 
-An explanation about the purpose of this instance.
+The location the vehicle is kept ovenight.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -18,5 +18,57 @@ An explanation about the purpose of this instance.
 ## overnightLocation Examples
 
 ```json
+"Driveway"
+```
+
+```json
+"Carport"
+```
+
+```json
+"CompoundLocked"
+```
+
+```json
+"GarageUnlockedNearHome"
+```
+
+```json
+"CompoundUnlocked"
+```
+
+```json
+"Other"
+```
+
+```json
+"GarageUnlockedAwayFromHome"
+```
+
+```json
+"CarParkOpenPublic"
+```
+
+```json
 "PublicRoadNearHome"
+```
+
+```json
+"PrivateProperty"
+```
+
+```json
+"GarageLockedNearHome"
+```
+
+```json
+"CarParkSecurePublic"
+```
+
+```json
+"PublicRoadAwayFromHome"
+```
+
+```json
+"GarageLockedAwayFromHome"
 ```

@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/specification/properties/licencePlate#/properties/asset/properties/data/properties/specification/properties/licencePlate
 ```
 
-An explanation about the purpose of this instance.
+The Reg Plate of the vehicle
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

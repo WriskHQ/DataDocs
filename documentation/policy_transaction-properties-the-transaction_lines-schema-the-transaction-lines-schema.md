@@ -4,7 +4,7 @@
 #/properties/transaction_lines/items#/properties/transaction_lines/items
 ```
 
-An explanation about the purpose of this instance.
+A object describing the lines of insurance being charged/refunded.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

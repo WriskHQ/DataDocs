@@ -4,7 +4,7 @@
 #/properties/asset/properties/id#/properties/asset/properties/id
 ```
 
-An explanation about the purpose of this instance.
+A unique identifier for the version of the asset.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

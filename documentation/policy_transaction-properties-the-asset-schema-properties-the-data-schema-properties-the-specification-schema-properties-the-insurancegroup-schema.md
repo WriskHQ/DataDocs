@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/specification/properties/insuranceGroup#/properties/asset/properties/data/properties/specification/properties/insuranceGroup
 ```
 
-An explanation about the purpose of this instance.
+The Thatcham Insurance Group for the vehicle.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

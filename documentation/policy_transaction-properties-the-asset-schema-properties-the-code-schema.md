@@ -4,7 +4,7 @@
 #/properties/asset/properties/code#/properties/asset/properties/code
 ```
 
-A unique idenitifer for the asset
+A unique idenitifer for the asset over it's lifetime.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

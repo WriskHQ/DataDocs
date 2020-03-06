@@ -4,7 +4,7 @@
 #/properties/asset/properties/data#/properties/asset/properties/data
 ```
 
-An explanation about the purpose of this instance.
+An object that describes the asset and it's relationship to the user.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -68,7 +68,7 @@ The default value is:
 
 ## usage
 
-An explanation about the purpose of this instance.
+The type of usage for a vehicle
 
 
 `usage`
@@ -90,7 +90,7 @@ An explanation about the purpose of this instance.
 
 ## legalOwner
 
-An explanation about the purpose of this instance.
+The legal owner of the vehicle
 
 
 `legalOwner`
@@ -112,7 +112,7 @@ An explanation about the purpose of this instance.
 
 ## racBlackBox
 
-An explanation about the purpose of this instance.
+Whether the vehicle has an RAC Black Box installed
 
 
 `racBlackBox`
@@ -134,7 +134,7 @@ true
 
 ## annualMileage
 
-An explanation about the purpose of this instance.
+The estimated annual mileage the customer input for this vehicle.
 
 
 `annualMileage`
@@ -156,7 +156,7 @@ An explanation about the purpose of this instance.
 
 ## modifications
 
-An explanation about the purpose of this instance.
+Whether the vehicle has modifications
 
 
 `modifications`
@@ -178,7 +178,7 @@ false
 
 ## specification
 
-An explanation about the purpose of this instance.
+The speification of the vehicle.
 
 
 `specification`
@@ -219,7 +219,7 @@ The default value is:
 
 ## noClaimsDiscount
 
-An explanation about the purpose of this instance.
+The customers No Claims Discount applied to this vehicle.
 
 
 `noClaimsDiscount`
@@ -241,7 +241,7 @@ An explanation about the purpose of this instance.
 
 ## registeredKeeper
 
-An explanation about the purpose of this instance.
+The registered keeper of the vehicle.
 
 
 `registeredKeeper`
@@ -261,9 +261,29 @@ An explanation about the purpose of this instance.
 "PolicyHolder"
 ```
 
+```json
+"SpousePartner"
+```
+
+```json
+"Other"
+```
+
+```json
+"Employer"
+```
+
+```json
+"OtherFamilyMember"
+```
+
+```json
+"ParentGuardian"
+```
+
 ## overnightLocation
 
-An explanation about the purpose of this instance.
+The location the vehicle is kept ovenight.
 
 
 `overnightLocation`
@@ -280,12 +300,64 @@ An explanation about the purpose of this instance.
 ### overnightLocation Examples
 
 ```json
+"Driveway"
+```
+
+```json
+"Carport"
+```
+
+```json
+"CompoundLocked"
+```
+
+```json
+"GarageUnlockedNearHome"
+```
+
+```json
+"CompoundUnlocked"
+```
+
+```json
+"Other"
+```
+
+```json
+"GarageUnlockedAwayFromHome"
+```
+
+```json
+"CarParkOpenPublic"
+```
+
+```json
 "PublicRoadNearHome"
+```
+
+```json
+"PrivateProperty"
+```
+
+```json
+"GarageLockedNearHome"
+```
+
+```json
+"CarParkSecurePublic"
+```
+
+```json
+"PublicRoadAwayFromHome"
+```
+
+```json
+"GarageLockedAwayFromHome"
 ```
 
 ## specificationTimestamp
 
-An explanation about the purpose of this instance.
+The date the specification was requested from the vehicle search provider.
 
 
 `specificationTimestamp`

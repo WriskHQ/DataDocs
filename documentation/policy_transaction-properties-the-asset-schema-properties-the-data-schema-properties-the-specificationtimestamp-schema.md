@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/specificationTimestamp#/properties/asset/properties/data/properties/specificationTimestamp
 ```
 
-An explanation about the purpose of this instance.
+The date the specification was requested from the vehicle search provider.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

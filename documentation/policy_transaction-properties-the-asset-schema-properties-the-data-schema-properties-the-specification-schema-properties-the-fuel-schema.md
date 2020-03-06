@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/specification/properties/fuel#/properties/asset/properties/data/properties/specification/properties/fuel
 ```
 
-An explanation about the purpose of this instance.
+The Fuel type of the vehicle.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -19,4 +19,20 @@ An explanation about the purpose of this instance.
 
 ```json
 "DIESEL"
+```
+
+```json
+"Diesel"
+```
+
+```json
+"PETROL"
+```
+
+```json
+"Petrol"
+```
+
+```json
+"ELECTRIC"
 ```

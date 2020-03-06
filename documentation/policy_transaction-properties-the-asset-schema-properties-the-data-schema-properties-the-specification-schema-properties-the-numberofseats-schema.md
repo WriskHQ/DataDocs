@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/specification/properties/numberOfSeats#/properties/asset/properties/data/properties/specification/properties/numberOfSeats
 ```
 
-An explanation about the purpose of this instance.
+The number of seats fitted in the vehicle.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

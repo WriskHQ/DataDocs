@@ -4,7 +4,7 @@
 #/properties/asset/properties/type#/properties/asset/properties/type
 ```
 
-An explanation about the purpose of this instance.
+The type of asset.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

@@ -4,7 +4,7 @@
 #/properties/asset/properties/user_id#/properties/asset/properties/user_id
 ```
 
-An explanation about the purpose of this instance.
+The user id of which the asset belongs to.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

@@ -4,7 +4,7 @@
 #/properties/profile#/properties/profile
 ```
 
-An explanation about the purpose of this instance.
+An object that describes the customer.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -30,7 +30,7 @@ The default value is:
   "id": "prfl_6dT4lFDfce1aKz4f",
   "data": {
     "dvlaUnawareOfMedicalCondition": false,
-    "firstName": "Benedikt",
+    "firstName": "Joe",
     "employmentStatus": "ED",
     "vehicleClaimsHistory": [],
     "homeOwnership": "Own",
@@ -39,18 +39,18 @@ The default value is:
       "type": "Residential",
       "countryName": "United Kingdom",
       "pcaId": "GB|RM|B|15592178",
-      "postalCode": "N10 3UP",
+      "postalCode": "N40 3UP",
       "countryIso2": "GB",
       "city": "London",
       "countryIso3": "GBR",
       "buildingName": "19C",
       "street": "Woodland Rise",
       "sortingNumber1": "62123",
-      "line1": "19C Woodland Rise",
+      "line1": "19C Bogland Rise",
       "domesticId": "15592178",
       "languageAlternatives": "ENG",
       "barcode": "(N103UP2AH)",
-      "label": "19C Woodland Rise\nLONDON\nN10 3UP\nUNITED KINGDOM",
+      "label": "19C Bogland Rise\nLONDON\nN10 3UP\nUNITED KINGDOM",
       "countryIsoNumber": "826",
       "dataLevel": "Premise",
       "adminAreaName": "Haringey",

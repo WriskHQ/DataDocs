@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/annualMileage#/properties/asset/properties/data/properties/annualMileage
 ```
 
-An explanation about the purpose of this instance.
+The estimated annual mileage the customer input for this vehicle.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |

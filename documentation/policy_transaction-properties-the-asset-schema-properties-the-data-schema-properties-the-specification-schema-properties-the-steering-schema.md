@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/specification/properties/steering#/properties/asset/properties/data/properties/specification/properties/steering
 ```
 
-An explanation about the purpose of this instance.
+The steering configuration of the vehicle
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
@@ -19,4 +19,8 @@ An explanation about the purpose of this instance.
 
 ```json
 "RHD"
+```
+
+```json
+"LHD"
 ```

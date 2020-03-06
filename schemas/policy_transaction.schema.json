@@ -134,7 +134,7 @@
         "$id": "#/properties/transaction_lines/items",
         "type": "object",
         "title": "The Transaction Lines schema",
-        "description": "An explanation about the purpose of this instance.",
+        "description": "A object describing the lines of insurance being charged/refunded.",
         "default": {},
         "examples": [
           {
@@ -371,7 +371,7 @@
           "$id": "#/properties/asset/properties/id",
           "type": "string",
           "title": "The Id Schema",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "A unique identifier for the version of the asset.",
           "default": "",
           "examples": [
             "asst_oZmLHSrOwIaHPH3L"
@@ -381,7 +381,7 @@
           "$id": "#/properties/asset/properties/code",
           "type": "string",
           "title": "The Code Schema",
-          "description": "A unique idenitifer for the asset",
+          "description": "A unique idenitifer for the asset over it's lifetime.",
           "default": "",
           "examples": [
             "itm_kTKwvEyaHiUEFVTw"
@@ -391,7 +391,7 @@
           "$id": "#/properties/asset/properties/type",
           "type": "string",
           "title": "The Type Schema",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "The type of asset.",
           "default": "",
           "examples": [
             "Vehicle"
@@ -401,7 +401,7 @@
           "$id": "#/properties/asset/properties/user_id",
           "type": "string",
           "title": "The User_id Schema",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "The user id of which the asset belongs to.",
           "default": "",
           "examples": [
             "email|5da5ec2ad6be3073e989943b"
@@ -411,7 +411,7 @@
           "$id": "#/properties/asset/properties/data",
           "type": "object",
           "title": "The Data Schema",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "An object that describes the asset and it's relationship to the user.",
           "default": {},
           "examples": [
             {
@@ -455,7 +455,7 @@
               "$id": "#/properties/asset/properties/data/properties/usage",
               "type": "string",
               "title": "The Usage Schema",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "The type of usage for a vehicle",
               "default": "",
               "examples": [
                 "SocialDomesticPleasure"
@@ -465,7 +465,7 @@
               "$id": "#/properties/asset/properties/data/properties/legalOwner",
               "type": "string",
               "title": "The Legalowner Schema",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "The legal owner of the vehicle",
               "default": "",
               "examples": [
                 "PolicyHolder"
@@ -475,7 +475,7 @@
               "$id": "#/properties/asset/properties/data/properties/racBlackBox",
               "type": "boolean",
               "title": "The Racblackbox Schema",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "Whether the vehicle has an RAC Black Box installed",
               "default": false,
               "examples": [
                 true
@@ -485,7 +485,7 @@
               "$id": "#/properties/asset/properties/data/properties/annualMileage",
               "type": "integer",
               "title": "The Annualmileage Schema",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "The estimated annual mileage the customer input for this vehicle.",
               "default": 0,
               "examples": [
                 5000
@@ -495,7 +495,7 @@
               "$id": "#/properties/asset/properties/data/properties/modifications",
               "type": "boolean",
               "title": "The Modifications Schema",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "Whether the vehicle has modifications",
               "default": false,
               "examples": [
                 false
@@ -505,7 +505,7 @@
               "$id": "#/properties/asset/properties/data/properties/specification",
               "type": "object",
               "title": "The Specification Schema",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "The speification of the vehicle.",
               "default": {},
               "examples": [
                 {
@@ -538,17 +538,21 @@
                   "$id": "#/properties/asset/properties/data/properties/specification/properties/fuel",
                   "type": "string",
                   "title": "The Fuel Schema",
-                  "description": "An explanation about the purpose of this instance.",
+                  "description": "The Fuel type of the vehicle.",
                   "default": "",
                   "examples": [
-                    "DIESEL"
+                    "DIESEL",
+                    "Diesel",
+                    "PETROL",
+                    "Petrol",
+                    "ELECTRIC"
                   ]
                 },
                 "make": {
                   "$id": "#/properties/asset/properties/data/properties/specification/properties/make",
                   "type": "string",
                   "title": "The Make Schema",
-                  "description": "An explanation about the purpose of this instance.",
+                  "description": "The OEM of the vehicle.",
                   "default": "",
                   "examples": [
                     "BMW"
@@ -558,7 +562,7 @@
                   "$id": "#/properties/asset/properties/data/properties/specification/properties/year",
                   "type": "integer",
                   "title": "The Year Schema",
-                  "description": "An explanation about the purpose of this instance.",
+                  "description": "The year the vehicle was manufactured",
                   "default": 0,
                   "examples": [
                     2018
@@ -568,7 +572,7 @@
                   "$id": "#/properties/asset/properties/data/properties/specification/properties/model",
                   "type": "string",
                   "title": "The Model Schema",
-                  "description": "An explanation about the purpose of this instance.",
+                  "description": "The model variant of the vehicle.",
                   "default": "",
                   "examples": [
                     "X2"
@@ -578,7 +582,7 @@
                   "$id": "#/properties/asset/properties/data/properties/specification/properties/value",
                   "type": "integer",
                   "title": "The Value Schema",
-                  "description": "An explanation about the purpose of this instance.",
+                  "description": "The estimated value of the vehicle.",
                   "default": 0,
                   "examples": [
                     31550
@@ -588,17 +592,18 @@
                   "$id": "#/properties/asset/properties/data/properties/specification/properties/steering",
                   "type": "string",
                   "title": "The Steering Schema",
-                  "description": "An explanation about the purpose of this instance.",
+                  "description": "The steering configuration of the vehicle",
                   "default": "",
                   "examples": [
-                    "RHD"
+                    "RHD",
+                    "LHD"
                   ]
                 },
                 "licencePlate": {
                   "$id": "#/properties/asset/properties/data/properties/specification/properties/licencePlate",
                   "type": "string",
                   "title": "The Licenceplate Schema",
-                  "description": "An explanation about the purpose of this instance.",
+                  "description": "The Reg Plate of the vehicle",
                   "default": "",
                   "examples": [
                     "DG18 MFK"
@@ -608,17 +613,23 @@
                   "$id": "#/properties/asset/properties/data/properties/specification/properties/transmission",
                   "type": "string",
                   "title": "The Transmission Schema",
-                  "description": "An explanation about the purpose of this instance.",
+                  "description": "The Transmission of the vehicle",
                   "default": "",
                   "examples": [
-                    "AUTOMATIC"
+                    "AUTOMATIC",
+                    "MANUAL",
+                    "EDC",
+                    "DSG",
+                    "CVT",
+                    "Sequential Automatic",
+                    "ETG"
                   ]
                 },
                 "numberOfSeats": {
                   "$id": "#/properties/asset/properties/data/properties/specification/properties/numberOfSeats",
                   "type": "integer",
                   "title": "The Numberofseats Schema",
-                  "description": "An explanation about the purpose of this instance.",
+                  "description": "The number of seats fitted in the vehicle.",
                   "default": 0,
                   "examples": [
                     5
@@ -628,7 +639,7 @@
                   "$id": "#/properties/asset/properties/data/properties/specification/properties/insuranceGroup",
                   "type": "integer",
                   "title": "The Insurancegroup Schema",
-                  "description": "An explanation about the purpose of this instance.",
+                  "description": "The Thatcham Insurance Group for the vehicle.",
                   "default": 0,
                   "examples": [
                     32
@@ -640,7 +651,7 @@
               "$id": "#/properties/asset/properties/data/properties/noClaimsDiscount",
               "type": "integer",
               "title": "The Noclaimsdiscount Schema",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "The customers No Claims Discount applied to this vehicle.",
               "default": 0,
               "examples": [
                 9
@@ -650,27 +661,45 @@
               "$id": "#/properties/asset/properties/data/properties/registeredKeeper",
               "type": "string",
               "title": "The Registeredkeeper Schema",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "The registered keeper of the vehicle.",
               "default": "",
               "examples": [
-                "PolicyHolder"
+                "PolicyHolder",
+                "SpousePartner",
+                "Other",
+                "Employer",
+                "OtherFamilyMember",
+                "ParentGuardian"
               ]
             },
             "overnightLocation": {
               "$id": "#/properties/asset/properties/data/properties/overnightLocation",
               "type": "string",
               "title": "The Overnightlocation Schema",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "The location the vehicle is kept ovenight.",
               "default": "",
               "examples": [
-                "PublicRoadNearHome"
+                "Driveway",
+                "Carport",
+                "CompoundLocked",
+                "GarageUnlockedNearHome",
+                "CompoundUnlocked",
+                "Other",
+                "GarageUnlockedAwayFromHome",
+                "CarParkOpenPublic",
+                "PublicRoadNearHome",
+                "PrivateProperty",
+                "GarageLockedNearHome",
+                "CarParkSecurePublic",
+                "PublicRoadAwayFromHome",
+                "GarageLockedAwayFromHome"
               ]
             },
             "specificationTimestamp": {
               "$id": "#/properties/asset/properties/data/properties/specificationTimestamp",
               "type": "string",
               "title": "The Specificationtimestamp Schema",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "The date the specification was requested from the vehicle search provider.",
               "default": "",
               "examples": [
                 "2019-10-15T15:54:12.345Z"
@@ -682,7 +711,7 @@
           "$id": "#/properties/asset/properties/created_at",
           "type": "string",
           "title": "The Created_at Schema",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "The datetime the asset version was created.",
           "default": "",
           "examples": [
             "2019-10-15T15:56:46Z"
@@ -694,14 +723,14 @@
       "$id": "#/properties/profile",
       "type": "object",
       "title": "The Profile Schema",
-      "description": "An explanation about the purpose of this instance.",
+      "description": "An object that describes the customer.",
       "default": {},
       "examples": [
         {
           "id": "prfl_6dT4lFDfce1aKz4f",
           "data": {
             "dvlaUnawareOfMedicalCondition": false,
-            "firstName": "Benedikt",
+            "firstName": "Joe",
             "employmentStatus": "ED",
             "vehicleClaimsHistory": [],
             "homeOwnership": "Own",
@@ -710,18 +739,18 @@
               "type": "Residential",
               "countryName": "United Kingdom",
               "pcaId": "GB|RM|B|15592178",
-              "postalCode": "N10 3UP",
+              "postalCode": "N40 3UP",
               "countryIso2": "GB",
               "city": "London",
               "countryIso3": "GBR",
               "buildingName": "19C",
               "street": "Woodland Rise",
               "sortingNumber1": "62123",
-              "line1": "19C Woodland Rise",
+              "line1": "19C Bogland Rise",
               "domesticId": "15592178",
               "languageAlternatives": "ENG",
               "barcode": "(N103UP2AH)",
-              "label": "19C Woodland Rise\nLONDON\nN10 3UP\nUNITED KINGDOM",
+              "label": "19C Bogland Rise\nLONDON\nN10 3UP\nUNITED KINGDOM",
               "countryIsoNumber": "826",
               "dataLevel": "Premise",
               "adminAreaName": "Haringey",

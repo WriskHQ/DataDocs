@@ -4,7 +4,7 @@
 #/properties/asset/properties/data/properties/racBlackBox#/properties/asset/properties/data/properties/racBlackBox
 ```
 
-An explanation about the purpose of this instance.
+Whether the vehicle has an RAC Black Box installed
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                       |
