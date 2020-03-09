@@ -410,7 +410,7 @@
         "data": {
           "$id": "#/properties/asset/properties/data",
           "type": "object",
-          "title": "The Data Schema",
+          "title": "The Asset Data Schema",
           "description": "An object that describes the asset and it's relationship to the user.",
           "default": {},
           "examples": [
@@ -816,7 +816,7 @@
         "data": {
           "$id": "#/properties/profile/properties/data",
           "type": "object",
-          "title": "The Data Schema",
+          "title": "The Profile Data Schema",
           "description": "An explanation about the purpose of this instance.",
           "default": {},
           "examples": [

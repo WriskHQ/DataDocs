@@ -66,7 +66,7 @@ The default value is:
 | [code](#code)             | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-code-schema.md "\#/properties/asset/properties/code#/properties/asset/properties/code")                   |
 | [type](#type)             | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-type-schema.md "\#/properties/asset/properties/type#/properties/asset/properties/type")                   |
 | [user_id](#user_id)       | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-user_id-schema.md "\#/properties/asset/properties/user_id#/properties/asset/properties/user_id")          |
-| [data](#data)             | `object` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema.md "\#/properties/asset/properties/data#/properties/asset/properties/data")                   |
+| [data](#data)             | `object` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-asset-data-schema.md "\#/properties/asset/properties/data#/properties/asset/properties/data")             |
 | [created_at](#created_at) | `string` | Required | cannot be null | [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-created_at-schema.md "\#/properties/asset/properties/created_at#/properties/asset/properties/created_at") |
 
 ## id
@@ -165,13 +165,13 @@ An object that describes the asset and it's relationship to the user.
 `data`
 
 -   is required
--   Type: `object` ([The Data Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema.md))
+-   Type: `object` ([The Asset Data Schema](policy_transaction-properties-the-asset-schema-properties-the-asset-data-schema.md))
 -   cannot be null
--   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-data-schema.md "\#/properties/asset/properties/data#/properties/asset/properties/data")
+-   defined in: [Policy Transaction](policy_transaction-properties-the-asset-schema-properties-the-asset-data-schema.md "\#/properties/asset/properties/data#/properties/asset/properties/data")
 
 ### data Type
 
-`object` ([The Data Schema](policy_transaction-properties-the-asset-schema-properties-the-data-schema.md))
+`object` ([The Asset Data Schema](policy_transaction-properties-the-asset-schema-properties-the-asset-data-schema.md))
 
 ### data Default Value
 
