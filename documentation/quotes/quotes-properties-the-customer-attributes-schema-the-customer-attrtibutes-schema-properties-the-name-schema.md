@@ -1,30 +1,22 @@
-# The Class_of_business Schema Schema
+# The Name Schema Schema
 
 ```txt
-#/properties/class_of_business#/properties/class_of_business
+#/properties/attributes/items/properties/name#/properties/attributes/items/properties/name
 ```
 
-An explanation about the purpose of this instance.
+The key for the given attribute.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [quotes.schema.json\*](../../out/quotes.schema.json "open original schema") |
 
-## class_of_business Type
+## name Type
 
-`string` ([The Class_of_business Schema](quotes-properties-the-class_of_business-schema.md))
+`string` ([The Name Schema](quotes-properties-the-customer-attributes-schema-the-customer-attrtibutes-schema-properties-the-name-schema.md))
 
-## class_of_business Examples
-
-```json
-"Motor"
-```
+## name Examples
 
 ```json
-"Breakdown"
-```
-
-```json
-"Legal Expenses"
+"User ID"
 ```

@@ -1,7 +1,7 @@
-# The Class_of_business Schema Schema
+# The Customer Attributes Schema Schema
 
 ```txt
-#/properties/class_of_business#/properties/class_of_business
+#/properties/attributes#/properties/attributes
 ```
 
 An explanation about the purpose of this instance.
@@ -11,20 +11,14 @@ An explanation about the purpose of this instance.
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [quotes.schema.json\*](../../out/quotes.schema.json "open original schema") |
 
-## class_of_business Type
+## attributes Type
 
-`string` ([The Class_of_business Schema](quotes-properties-the-class_of_business-schema.md))
+`object[]` ([The Customer Attrtibutes Schema](quotes-properties-the-customer-attributes-schema-the-customer-attrtibutes-schema.md))
 
-## class_of_business Examples
+## attributes Default Value
 
-```json
-"Motor"
-```
+The default value is:
 
 ```json
-"Breakdown"
-```
-
-```json
-"Legal Expenses"
+[]
 ```

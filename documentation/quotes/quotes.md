@@ -19,7 +19,7 @@ The root schema comprises the entire JSON document.
 
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                              |
 | :---------------------------------------- | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| [attributes](#attributes)                 | `array`  | Required | cannot be null | [The Root Schema](quotes-properties-the-attributes-schema.md "\#/properties/attributes#/properties/attributes")                         |
+| [attributes](#attributes)                 | `array`  | Required | cannot be null | [The Root Schema](quotes-properties-the-customer-attributes-schema.md "\#/properties/attributes#/properties/attributes")                |
 | [class_of_business](#class_of_business)   | `string` | Required | cannot be null | [The Root Schema](quotes-properties-the-class_of_business-schema.md "\#/properties/class_of_business#/properties/class_of_business")    |
 | [currency](#currency)                     | `string` | Required | cannot be null | [The Root Schema](quotes-properties-the-currency-schema.md "\#/properties/currency#/properties/currency")                               |
 | [gross_premium](#gross_premium)           | `string` | Required | cannot be null | [The Root Schema](quotes-properties-the-gross_premium-schema.md "\#/properties/gross_premium#/properties/gross_premium")                |
@@ -48,13 +48,13 @@ An explanation about the purpose of this instance.
 `attributes`
 
 -   is required
--   Type: `object[]` ([The Items Schema](quotes-properties-the-attributes-schema-the-items-schema.md))
+-   Type: `object[]` ([The Customer Attrtibutes Schema](quotes-properties-the-customer-attributes-schema-the-customer-attrtibutes-schema.md))
 -   cannot be null
--   defined in: [The Root Schema](quotes-properties-the-attributes-schema.md "\#/properties/attributes#/properties/attributes")
+-   defined in: [The Root Schema](quotes-properties-the-customer-attributes-schema.md "\#/properties/attributes#/properties/attributes")
 
 ### attributes Type
 
-`object[]` ([The Items Schema](quotes-properties-the-attributes-schema-the-items-schema.md))
+`object[]` ([The Customer Attrtibutes Schema](quotes-properties-the-customer-attributes-schema-the-customer-attrtibutes-schema.md))
 
 ### attributes Default Value
 
@@ -84,6 +84,14 @@ An explanation about the purpose of this instance.
 
 ```json
 "Motor"
+```
+
+```json
+"Breakdown"
+```
+
+```json
+"Legal Expenses"
 ```
 
 ## currency

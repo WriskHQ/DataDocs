@@ -1,30 +1,22 @@
-# The Class_of_business Schema Schema
+# The Value Schema Schema
 
 ```txt
-#/properties/class_of_business#/properties/class_of_business
+#/properties/attributes/items/properties/value#/properties/attributes/items/properties/value
 ```
 
-An explanation about the purpose of this instance.
+The value of a given attribute.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [quotes.schema.json\*](../../out/quotes.schema.json "open original schema") |
 
-## class_of_business Type
+## value Type
 
-`string` ([The Class_of_business Schema](quotes-properties-the-class_of_business-schema.md))
+`string` ([The Value Schema](quotes-properties-the-customer-attributes-schema-the-customer-attrtibutes-schema-properties-the-value-schema.md))
 
-## class_of_business Examples
-
-```json
-"Motor"
-```
+## value Examples
 
 ```json
-"Breakdown"
-```
-
-```json
-"Legal Expenses"
+"email|5db6d0aad6be3073e95c3fcf"
 ```
